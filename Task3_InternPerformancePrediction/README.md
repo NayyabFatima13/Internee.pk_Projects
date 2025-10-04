@@ -53,11 +53,11 @@ The synthetic dataset contains 1,500 intern records with the following features:
 
 ### Visualizations
 The project generates comprehensive visualizations including:
-Performance distribution across tiers
-Feature importance analysis
-Department-wise performance comparisons
-Correlation analysis with success probability
-Conversion rate analysis
+- Performance distribution across tiers
+- Feature importance analysis
+- Department-wise performance comparisons
+- Correlation analysis with success probability
+- Conversion rate analysis
 
 ## Technical Implementation
 ### Technologies Used
@@ -95,46 +95,46 @@ Conversion rate analysis
 - Provide executive networking opportunities
 
 ## Future Enhancements
-Real-time prediction API
-Interactive dashboard for mentors
-Automated alert system for at-risk interns
-Integration with HR systems
-Longitudinal tracking of intern progress
+- Real-time prediction API
+- Interactive dashboard for mentors
+- Automated alert system for at-risk interns
+- Integration with HR systems
+- Longitudinal tracking of intern progress
 
 ## Target Audience
-HR Professionals: Intern program optimization
-Team Mentors: Personalized guidance strategies
-University Relations: Candidate selection improvements
-Business Leaders: Talent pipeline management
+- HR Professionals: Intern program optimization
+- Team Mentors: Personalized guidance strategies
+- University Relations: Candidate selection improvements
+- Business Leaders: Talent pipeline management
 
 ## Business Impact
 Quantifiable Benefits
-25% improvement in conversion rate accuracy
-30% reduction in time-to-productivity for new hires
-40% higher retention for predicted high-performers
-35% optimization of mentorship resource allocation
-50% improvement in manager satisfaction with hires
+- 25% improvement in conversion rate accuracy
+- 30% reduction in time-to-productivity for new hires
+- 40% higher retention for predicted high-performers
+- 35% optimization of mentorship resource allocation
+- 50% improvement in manager satisfaction with hires
 
 ### For HR & Talent Acquisition
-Implement predictive scoring for intern conversion decisions
-Fast-track offers for interns with >70% success probability
-Create development plans for medium-potential interns (50-70% probability)
-Use department-specific insights for targeted recruitment
+- Implement predictive scoring for intern conversion decisions
+- Fast-track offers for interns with >70% success probability
+- Create development plans for medium-potential interns (50-70% probability)
+- Use department-specific insights for targeted recruitment
 
 ## Key Recommendations
 ### For Mentorship & Development
-Low Performers: Daily check-ins + structured task breakdowns + focused attendance improvement
-Medium Performers: Weekly goal-setting + communication training + timeliness focus
-High Performers: Leadership opportunities + complex projects + career planning
-Exceptional Performers: Strategic projects + executive exposure + fast-track conversion
+- Low Performers: Daily check-ins + structured task breakdowns + focused attendance improvement
+- Medium Performers: Weekly goal-setting + communication training + timeliness focus
+- High Performers: Leadership opportunities + complex projects + career planning
+- Exceptional Performers: Strategic projects + executive exposure + fast-track conversion
 
 ## Conclusion
 This intern performance prediction system transforms subjective mentorship into data-driven talent development, creating significant competitive advantage through:
-Better hiring decisions → Reduced costs + improved quality
-Personalized development → Faster growth + higher retention
-Optimized resources → Maximum impact from mentorship investments
-Scalable insights → Consistent excellence across the organization
+- Better hiring decisions → Reduced costs + improved quality
+- Personalized development → Faster growth + higher retention
+- Optimized resources → Maximum impact from mentorship investments
+- Scalable insights → Consistent excellence across the organization
 
 ## Recommendation: 
 Implement immediately with quarterly review cycles to maximize business impact.
-"The future of talent management is predictive, personalized, and powered by data."
+- "The future of talent management is predictive, personalized, and powered by data."
