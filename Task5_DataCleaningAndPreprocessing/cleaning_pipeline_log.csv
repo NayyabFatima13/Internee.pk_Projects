@@ -1,0 +1,11 @@
+timestamp,step,records_affected,details,version
+2025-10-14T18:29:57.557025,Duplicate Removal,36,Removed 36 exact duplicates,1
+2025-10-14T18:29:57.581782,Missing Value Handling,449,Fixed 449 missing values,1
+2025-10-14T18:29:57.589060,Text Standardization - first_name,35,Reduced from 52 to 17 unique values,1
+2025-10-14T18:29:57.595493,Text Standardization - last_name,14,Reduced from 30 to 16 unique values,1
+2025-10-14T18:29:57.604890,Text Standardization - university,20,Reduced from 29 to 9 unique values,1
+2025-10-14T18:29:57.615039,Text Standardization - major,-1,Reduced from 13 to 14 unique values,1
+2025-10-14T18:29:57.624879,Text Standardization - position_applied,5,Reduced from 12 to 7 unique values,1
+2025-10-14T18:29:57.631556,Email Standardization,82,Fixed 82 email format issues,1
+2025-10-14T18:29:57.646095,GPA Outlier Handling,28,Capped 28 GPA values outside 0-4.0 range,1
+2025-10-14T18:29:57.655670,Feature Engineering,1464,"Created derived features: full_name, experience_level",1
