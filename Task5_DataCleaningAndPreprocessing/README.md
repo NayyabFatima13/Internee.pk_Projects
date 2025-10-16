@@ -4,10 +4,10 @@
 This project demonstrates a comprehensive data cleaning pipeline for internship application data. The dataset contains synthetic internship applications with realistic data quality issues commonly encountered in real-world scenarios.
 
 ## Objectives
-Ensure data accuracy by cleaning and transforming raw datasets
-Identify and handle missing values, duplicates, and outliers
-Standardize and structure data for efficient analysis
-Automate data cleaning using Python and Pandas
+- Ensure data accuracy by cleaning and transforming raw datasets
+- Identify and handle missing values, duplicates, and outliers
+- Standardize and structure data for efficient analysis
+- Automate data cleaning using Python and Pandas
 
 ## Dataset Description
 The synthetic dataset contains 1,500 internship applications with the following columns:
