@@ -1,0 +1,601 @@
+intern_id,year,month,month_start,tasks_completed,tasks_assigned,completion_rate,avg_completion_time_days,avg_quality_score,mentor_feedback_score,initiatives_taken,learning_assessment_score,collaboration_score,monthly_performance_score,performance_tier,department,mentor
+INT_0001,2024,1,2024-01-01,8,11,68.6,6.0,8.0,6.8,0,55.3,8.4,441.0,Medium,Data Science,Dr. Smith
+INT_0001,2024,2,2024-02-01,8,15,50.4,3.0,6.7,7.6,0,63.4,5.8,396.8,Medium,Data Science,Dr. Smith
+INT_0001,2024,3,2024-03-01,7,8,85.6,1.1,7.3,7.1,0,54.0,6.1,425.9,Medium,Data Science,Dr. Smith
+INT_0001,2024,4,2024-04-01,8,9,88.9,5.3,6.8,6.9,0,21.6,6.0,393.4,Medium,Data Science,Dr. Smith
+INT_0001,2024,5,2024-05-01,10,18,53.9,5.3,6.8,7.6,1,35.3,4.0,379.0,Medium,Data Science,Dr. Smith
+INT_0001,2024,6,2024-06-01,8,11,67.8,6.1,7.0,6.9,2,43.1,3.7,370.7,Medium,Data Science,Dr. Smith
+INT_0002,2024,1,2024-01-01,8,8,93.1,2.2,7.2,5.7,2,50.6,7.6,402.6,Medium,Software Engineering,Prof. Johnson
+INT_0002,2024,2,2024-02-01,7,8,82.7,3.9,6.9,7.6,1,41.5,5.9,410.8,Medium,Software Engineering,Prof. Johnson
+INT_0002,2024,3,2024-03-01,8,12,63.8,4.7,6.0,6.5,0,77.0,6.5,366.3,Medium,Software Engineering,Prof. Johnson
+INT_0002,2024,4,2024-04-01,5,8,57.9,6.7,7.3,7.5,1,72.6,6.0,409.5,Medium,Software Engineering,Prof. Johnson
+INT_0002,2024,5,2024-05-01,10,12,78.6,4.8,6.5,6.2,1,59.6,5.6,365.5,Medium,Software Engineering,Prof. Johnson
+INT_0002,2024,6,2024-06-01,11,13,81.8,4.3,4.8,8.1,2,57.7,7.9,385.0,Medium,Software Engineering,Prof. Johnson
+INT_0003,2024,1,2024-01-01,4,5,69.4,5.6,6.5,5.3,0,58.2,4.0,330.0,Medium,Business Analytics,Dr. Smith
+INT_0003,2024,2,2024-02-01,6,8,72.1,4.8,6.3,7.5,2,75.2,5.2,381.0,Medium,Business Analytics,Dr. Smith
+INT_0003,2024,3,2024-03-01,8,13,61.4,7.3,7.0,6.2,2,56.2,4.7,364.3,Medium,Business Analytics,Dr. Smith
+INT_0003,2024,4,2024-04-01,8,13,61.0,6.0,4.8,6.9,0,35.8,5.0,328.7,Medium,Business Analytics,Dr. Smith
+INT_0003,2024,5,2024-05-01,10,15,65.9,1.9,5.5,5.5,0,53.0,6.0,334.4,Medium,Business Analytics,Dr. Smith
+INT_0003,2024,6,2024-06-01,6,10,57.6,2.3,8.0,7.5,1,58.9,6.4,437.5,Medium,Business Analytics,Dr. Smith
+INT_0004,2024,1,2024-01-01,11,12,85.7,1.7,6.7,8.2,3,100.0,7.7,442.8,High,Data Science,Dr. Smith
+INT_0004,2024,2,2024-02-01,7,8,79.8,3.5,6.8,9.1,3,71.4,7.6,452.8,High,Data Science,Dr. Smith
+INT_0004,2024,3,2024-03-01,9,9,96.0,3.1,8.2,8.2,3,74.1,8.3,481.4,High,Data Science,Dr. Smith
+INT_0004,2024,4,2024-04-01,12,15,75.5,5.6,8.5,8.6,4,62.1,8.7,494.7,High,Data Science,Dr. Smith
+INT_0004,2024,5,2024-05-01,8,9,86.0,2.5,7.6,8.3,5,78.3,7.5,458.8,High,Data Science,Dr. Smith
+INT_0004,2024,6,2024-06-01,8,8,94.8,2.8,8.0,9.0,1,58.2,8.4,494.3,High,Data Science,Dr. Smith
+INT_0005,2024,1,2024-01-01,6,8,69.7,7.7,6.0,7.2,0,59.7,7.8,391.0,Medium,Business Analytics,Dr. Smith
+INT_0005,2024,2,2024-02-01,10,13,71.9,5.1,5.1,7.6,1,72.9,9.2,394.8,Medium,Business Analytics,Dr. Smith
+INT_0005,2024,3,2024-03-01,5,9,54.7,4.0,6.5,7.2,0,55.2,6.5,389.3,Medium,Business Analytics,Dr. Smith
+INT_0005,2024,4,2024-04-01,9,14,63.5,4.3,4.6,6.6,1,11.5,3.6,304.8,Medium,Business Analytics,Dr. Smith
+INT_0005,2024,5,2024-05-01,8,8,90.8,4.0,8.2,7.2,2,47.0,5.3,429.5,Medium,Business Analytics,Dr. Smith
+INT_0005,2024,6,2024-06-01,4,4,84.8,7.1,5.9,7.3,2,69.9,6.4,381.1,Medium,Business Analytics,Dr. Smith
+INT_0006,2024,1,2024-01-01,10,11,85.8,1.7,9.0,8.1,3,51.7,7.6,495.8,High,Business Analytics,Prof. Brown
+INT_0006,2024,2,2024-02-01,10,11,86.5,3.4,10.0,8.5,2,78.0,9.1,537.2,High,Business Analytics,Prof. Brown
+INT_0006,2024,3,2024-03-01,12,15,78.1,5.3,9.0,8.2,1,37.5,10.0,512.7,High,Business Analytics,Prof. Brown
+INT_0006,2024,4,2024-04-01,11,12,85.5,3.0,7.3,8.0,2,54.0,9.7,467.3,High,Business Analytics,Prof. Brown
+INT_0006,2024,5,2024-05-01,10,14,69.4,3.3,8.8,6.9,2,80.6,9.2,474.6,High,Business Analytics,Prof. Brown
+INT_0006,2024,6,2024-06-01,10,10,100.0,3.0,8.8,8.6,1,73.5,8.9,513.1,High,Business Analytics,Prof. Brown
+INT_0007,2024,1,2024-01-01,7,8,84.9,5.2,6.2,6.5,0,54.0,5.4,363.5,Medium,Marketing,Dr. Smith
+INT_0007,2024,2,2024-02-01,7,10,69.7,3.6,6.1,6.3,2,56.5,8.6,385.9,Medium,Marketing,Dr. Smith
+INT_0007,2024,3,2024-03-01,10,15,63.4,3.4,7.0,7.9,0,74.4,7.5,431.5,Medium,Marketing,Dr. Smith
+INT_0007,2024,4,2024-04-01,9,11,81.7,5.3,5.2,7.3,1,47.0,5.2,352.8,Medium,Marketing,Dr. Smith
+INT_0007,2024,5,2024-05-01,7,9,77.2,4.4,8.2,6.7,1,64.5,7.4,437.1,Medium,Marketing,Dr. Smith
+INT_0007,2024,6,2024-06-01,6,11,51.3,4.9,6.4,8.2,2,72.6,4.5,385.2,Medium,Marketing,Dr. Smith
+INT_0008,2024,1,2024-01-01,13,16,80.4,2.4,8.5,7.7,5,79.5,8.8,481.9,High,UX Design,Dr. Williams
+INT_0008,2024,2,2024-02-01,11,17,61.4,2.0,8.6,10.0,4,75.3,7.3,513.6,High,UX Design,Dr. Williams
+INT_0008,2024,3,2024-03-01,14,18,74.3,3.0,9.4,8.4,4,81.8,6.9,498.6,High,UX Design,Dr. Williams
+INT_0008,2024,4,2024-04-01,11,15,71.5,3.1,9.9,7.7,3,64.8,8.5,511.9,High,UX Design,Dr. Williams
+INT_0008,2024,5,2024-05-01,7,7,94.5,4.7,7.9,8.4,5,76.1,9.2,484.2,High,UX Design,Dr. Williams
+INT_0008,2024,6,2024-06-01,10,10,100.0,2.4,8.2,7.9,5,55.2,7.4,470.3,High,UX Design,Dr. Williams
+INT_0009,2024,1,2024-01-01,13,13,94.0,1.9,8.1,7.8,3,64.2,7.8,470.4,Exceptional,Marketing,Dr. Smith
+INT_0009,2024,2,2024-02-01,6,6,98.0,1.2,10.0,10.0,5,58.6,7.6,567.5,Exceptional,Marketing,Dr. Smith
+INT_0009,2024,3,2024-03-01,9,10,84.1,1.8,8.7,10.0,5,83.4,7.7,527.6,Exceptional,Marketing,Dr. Smith
+INT_0009,2024,4,2024-04-01,9,10,83.9,3.3,7.5,9.7,3,82.0,9.1,499.3,Exceptional,Marketing,Dr. Smith
+INT_0009,2024,5,2024-05-01,4,4,91.6,2.1,9.0,9.2,2,91.9,8.9,530.2,Exceptional,Marketing,Dr. Smith
+INT_0009,2024,6,2024-06-01,12,14,84.7,1.6,8.8,8.9,4,64.9,7.9,511.6,Exceptional,Marketing,Dr. Smith
+INT_0010,2024,1,2024-01-01,8,12,61.8,6.7,6.5,7.0,1,53.4,6.2,383.1,Medium,Marketing,Dr. Williams
+INT_0010,2024,2,2024-02-01,7,9,70.0,5.9,5.1,5.2,0,49.0,4.2,292.2,Medium,Marketing,Dr. Williams
+INT_0010,2024,3,2024-03-01,8,13,60.0,6.1,6.0,6.8,0,40.1,2.2,325.8,Medium,Marketing,Dr. Williams
+INT_0010,2024,4,2024-04-01,7,13,53.6,4.7,8.2,7.0,1,64.6,4.1,403.1,Medium,Marketing,Dr. Williams
+INT_0010,2024,5,2024-05-01,7,10,68.2,7.1,4.3,8.2,1,31.5,5.6,347.6,Medium,Marketing,Dr. Williams
+INT_0010,2024,6,2024-06-01,7,9,72.7,4.3,6.4,8.7,0,55.1,5.5,411.8,Medium,Marketing,Dr. Williams
+INT_0011,2024,1,2024-01-01,7,8,83.1,3.9,7.9,9.7,3,53.2,8.0,496.7,High,Data Science,Prof. Miller
+INT_0011,2024,2,2024-02-01,6,7,78.2,4.2,7.0,8.1,4,81.9,8.8,450.2,High,Data Science,Prof. Miller
+INT_0011,2024,3,2024-03-01,9,9,100.0,3.2,8.5,9.0,1,81.3,8.8,512.7,High,Data Science,Prof. Miller
+INT_0011,2024,4,2024-04-01,9,9,95.6,3.6,8.7,7.4,1,93.2,8.3,477.3,High,Data Science,Prof. Miller
+INT_0011,2024,5,2024-05-01,11,11,95.4,1.2,7.1,7.3,5,65.2,7.9,443.2,High,Data Science,Prof. Miller
+INT_0011,2024,6,2024-06-01,9,10,87.3,2.6,7.9,9.2,1,68.4,6.4,473.3,High,Data Science,Prof. Miller
+INT_0012,2024,1,2024-01-01,6,10,56.2,5.5,7.2,6.8,0,89.1,4.0,374.5,Medium,UX Design,Dr. Smith
+INT_0012,2024,2,2024-02-01,7,10,63.9,3.4,5.7,9.4,0,84.9,4.0,390.7,Medium,UX Design,Dr. Smith
+INT_0012,2024,3,2024-03-01,7,8,79.8,6.4,5.3,7.0,2,45.8,4.1,336.4,Medium,UX Design,Dr. Smith
+INT_0012,2024,4,2024-04-01,9,13,67.7,5.1,5.1,6.8,1,59.0,9.9,381.7,Medium,UX Design,Dr. Smith
+INT_0012,2024,5,2024-05-01,4,5,79.0,6.9,7.2,6.1,0,56.0,6.0,383.1,Medium,UX Design,Dr. Smith
+INT_0012,2024,6,2024-06-01,8,11,72.0,5.5,8.2,7.9,0,63.8,7.4,457.9,Medium,UX Design,Dr. Smith
+INT_0013,2024,1,2024-01-01,5,6,75.5,5.9,5.8,7.5,0,65.2,5.2,368.6,Medium,Business Analytics,Dr. Williams
+INT_0013,2024,2,2024-02-01,8,9,84.3,6.6,5.2,7.5,2,86.6,6.6,369.5,Medium,Business Analytics,Dr. Williams
+INT_0013,2024,3,2024-03-01,10,11,86.9,5.8,5.6,8.6,2,49.4,5.5,392.4,Medium,Business Analytics,Dr. Williams
+INT_0013,2024,4,2024-04-01,7,12,54.5,4.3,6.2,6.8,1,55.2,5.9,368.7,Medium,Business Analytics,Dr. Williams
+INT_0013,2024,5,2024-05-01,4,5,69.2,3.8,7.4,6.6,2,57.7,5.0,389.7,Medium,Business Analytics,Dr. Williams
+INT_0013,2024,6,2024-06-01,7,13,53.0,3.6,8.1,6.8,2,55.1,5.6,411.5,Medium,Business Analytics,Dr. Williams
+INT_0014,2024,1,2024-01-01,5,6,76.8,5.6,6.2,6.3,0,42.3,6.8,372.2,Medium,Data Science,Dr. Smith
+INT_0014,2024,2,2024-02-01,8,11,71.4,1.8,7.3,7.2,1,70.2,10.0,454.1,Medium,Data Science,Dr. Smith
+INT_0014,2024,3,2024-03-01,8,11,68.8,5.3,8.1,7.8,1,77.4,5.3,431.9,Medium,Data Science,Dr. Smith
+INT_0014,2024,4,2024-04-01,6,9,64.7,3.4,7.7,6.8,2,67.1,5.1,402.4,Medium,Data Science,Dr. Smith
+INT_0014,2024,5,2024-05-01,9,12,70.7,4.7,5.5,7.1,0,65.2,4.1,343.3,Medium,Data Science,Dr. Smith
+INT_0014,2024,6,2024-06-01,4,6,63.4,5.7,5.5,7.0,2,68.9,5.5,353.1,Medium,Data Science,Dr. Smith
+INT_0015,2024,1,2024-01-01,11,17,61.4,6.9,5.2,4.5,0,52.1,6.5,303.9,Low,Marketing,Dr. Smith
+INT_0015,2024,2,2024-02-01,9,14,62.9,9.7,6.6,6.4,2,45.4,6.5,376.6,Low,Marketing,Dr. Smith
+INT_0015,2024,3,2024-03-01,8,11,67.3,9.7,2.9,5.4,1,47.9,6.6,265.6,Low,Marketing,Dr. Smith
+INT_0015,2024,4,2024-04-01,5,8,62.5,5.1,4.5,6.3,2,70.3,7.5,332.3,Low,Marketing,Dr. Smith
+INT_0015,2024,5,2024-05-01,8,11,72.2,10.6,4.0,5.0,2,44.5,7.2,292.8,Low,Marketing,Dr. Smith
+INT_0015,2024,6,2024-06-01,5,6,71.8,9.9,5.0,7.8,1,26.6,7.6,377.1,Low,Marketing,Dr. Smith
+INT_0016,2024,1,2024-01-01,11,11,100.0,2.1,7.6,8.7,5,84.7,7.8,476.5,High,Data Science,Prof. Brown
+INT_0016,2024,2,2024-02-01,9,12,73.2,3.4,10.0,7.7,1,69.6,8.4,512.0,High,Data Science,Prof. Brown
+INT_0016,2024,3,2024-03-01,11,13,83.6,2.5,7.7,8.8,5,76.2,7.4,471.4,High,Data Science,Prof. Brown
+INT_0016,2024,4,2024-04-01,9,9,100.0,1.6,8.5,9.7,4,100.0,7.6,519.8,High,Data Science,Prof. Brown
+INT_0016,2024,5,2024-05-01,11,13,84.0,5.3,8.9,9.0,3,55.9,6.7,493.3,High,Data Science,Prof. Brown
+INT_0016,2024,6,2024-06-01,5,5,96.5,4.4,7.7,6.4,3,69.6,7.9,428.8,High,Data Science,Prof. Brown
+INT_0017,2024,1,2024-01-01,8,11,71.3,3.3,7.9,8.9,5,67.0,9.2,492.5,High,Marketing,Prof. Johnson
+INT_0017,2024,2,2024-02-01,10,10,99.5,3.9,6.9,9.6,1,79.7,8.7,482.0,High,Marketing,Prof. Johnson
+INT_0017,2024,3,2024-03-01,13,17,72.8,3.1,6.7,7.9,5,61.2,9.2,443.6,High,Marketing,Prof. Johnson
+INT_0017,2024,4,2024-04-01,11,12,89.2,3.3,7.7,8.8,2,73.1,8.5,480.4,High,Marketing,Prof. Johnson
+INT_0017,2024,5,2024-05-01,12,14,84.2,1.9,7.6,8.6,3,93.4,8.6,480.7,High,Marketing,Prof. Johnson
+INT_0017,2024,6,2024-06-01,10,10,95.7,1.8,5.7,9.2,2,62.6,6.0,420.7,High,Marketing,Prof. Johnson
+INT_0018,2024,1,2024-01-01,9,13,64.5,10.0,4.5,4.9,2,44.8,3.3,261.6,Low,Marketing,Prof. Miller
+INT_0018,2024,2,2024-02-01,4,5,76.5,9.6,4.0,5.8,1,42.9,6.1,299.6,Low,Marketing,Prof. Miller
+INT_0018,2024,3,2024-03-01,6,7,80.4,5.2,4.0,5.2,1,84.8,6.6,294.1,Low,Marketing,Prof. Miller
+INT_0018,2024,4,2024-04-01,6,8,69.9,7.6,4.6,4.9,1,66.4,8.5,319.0,Low,Marketing,Prof. Miller
+INT_0018,2024,5,2024-05-01,9,14,62.0,4.2,4.6,6.3,2,87.9,7.1,332.1,Low,Marketing,Prof. Miller
+INT_0018,2024,6,2024-06-01,9,10,85.3,9.8,5.8,5.5,2,67.8,7.9,357.1,Low,Marketing,Prof. Miller
+INT_0019,2024,1,2024-01-01,10,15,66.0,3.3,6.8,7.1,0,67.1,6.3,397.9,Medium,Data Science,Dr. Davis
+INT_0019,2024,2,2024-02-01,5,8,60.2,5.3,6.4,6.5,1,50.4,7.0,380.5,Medium,Data Science,Dr. Davis
+INT_0019,2024,3,2024-03-01,7,11,63.1,5.3,7.3,5.7,2,66.0,7.4,389.3,Medium,Data Science,Dr. Davis
+INT_0019,2024,4,2024-04-01,6,10,54.6,4.8,6.1,7.1,2,52.7,3.0,340.9,Medium,Data Science,Dr. Davis
+INT_0019,2024,5,2024-05-01,6,7,83.5,6.3,6.4,7.2,0,54.1,8.0,409.2,Medium,Data Science,Dr. Davis
+INT_0019,2024,6,2024-06-01,8,9,80.7,6.9,6.4,6.7,2,58.9,6.5,381.7,Medium,Data Science,Dr. Davis
+INT_0020,2024,1,2024-01-01,9,9,94.9,2.3,6.5,8.4,3,67.7,7.0,431.7,High,Software Engineering,Prof. Johnson
+INT_0020,2024,2,2024-02-01,10,17,56.5,2.1,6.9,8.3,5,66.9,8.8,449.2,High,Software Engineering,Prof. Johnson
+INT_0020,2024,3,2024-03-01,10,11,84.4,4.1,8.2,8.7,5,58.6,8.2,487.0,High,Software Engineering,Prof. Johnson
+INT_0020,2024,4,2024-04-01,11,13,80.7,1.5,7.8,9.5,4,52.1,6.9,486.9,High,Software Engineering,Prof. Johnson
+INT_0020,2024,5,2024-05-01,8,11,68.4,3.5,5.9,8.2,2,89.1,8.2,418.1,High,Software Engineering,Prof. Johnson
+INT_0020,2024,6,2024-06-01,8,10,74.1,3.1,9.0,9.0,3,39.4,10.0,530.1,High,Software Engineering,Prof. Johnson
+INT_0021,2024,1,2024-01-01,7,9,75.4,6.3,5.8,7.0,1,38.8,2.3,329.4,Medium,Business Analytics,Prof. Johnson
+INT_0021,2024,2,2024-02-01,5,6,72.2,5.8,7.2,5.5,1,44.8,4.7,356.8,Medium,Business Analytics,Prof. Johnson
+INT_0021,2024,3,2024-03-01,8,11,71.1,5.6,6.8,8.0,0,85.9,6.8,420.6,Medium,Business Analytics,Prof. Johnson
+INT_0021,2024,4,2024-04-01,8,11,67.9,5.6,7.2,7.2,1,73.2,5.9,403.5,Medium,Business Analytics,Prof. Johnson
+INT_0021,2024,5,2024-05-01,9,15,59.6,7.9,4.7,6.5,1,67.4,6.9,333.6,Medium,Business Analytics,Prof. Johnson
+INT_0021,2024,6,2024-06-01,6,7,78.3,5.3,5.5,7.0,2,75.7,5.7,358.3,Medium,Business Analytics,Prof. Johnson
+INT_0022,2024,1,2024-01-01,9,14,61.6,5.1,4.5,8.2,1,49.8,6.1,355.2,Medium,Data Science,Prof. Johnson
+INT_0022,2024,2,2024-02-01,7,13,53.8,4.7,6.3,7.5,1,60.9,6.9,393.4,Medium,Data Science,Prof. Johnson
+INT_0022,2024,3,2024-03-01,7,10,64.2,7.2,5.8,6.2,0,73.3,4.8,335.3,Medium,Data Science,Prof. Johnson
+INT_0022,2024,4,2024-04-01,8,11,70.8,4.9,8.9,7.9,1,74.5,6.2,464.6,Medium,Data Science,Prof. Johnson
+INT_0022,2024,5,2024-05-01,8,9,81.0,4.6,6.3,6.7,2,49.3,6.4,379.1,Medium,Data Science,Prof. Johnson
+INT_0022,2024,6,2024-06-01,7,9,77.3,4.0,4.4,6.9,1,54.7,5.4,325.8,Medium,Data Science,Prof. Johnson
+INT_0023,2024,1,2024-01-01,11,13,82.2,2.8,7.8,7.8,3,74.8,7.9,458.8,High,Marketing,Prof. Brown
+INT_0023,2024,2,2024-02-01,7,8,84.2,1.3,8.2,8.5,1,77.2,7.5,485.2,High,Marketing,Prof. Brown
+INT_0023,2024,3,2024-03-01,6,8,73.8,3.7,8.6,8.2,3,59.7,7.0,472.4,High,Marketing,Prof. Brown
+INT_0023,2024,4,2024-04-01,9,10,87.4,1.7,7.9,9.4,1,42.1,9.5,512.9,High,Marketing,Prof. Brown
+INT_0023,2024,5,2024-05-01,9,11,75.6,4.1,7.7,9.7,2,97.9,7.9,488.8,High,Marketing,Prof. Brown
+INT_0023,2024,6,2024-06-01,11,15,72.3,4.0,8.5,7.9,2,72.9,9.6,489.4,High,Marketing,Prof. Brown
+INT_0024,2024,1,2024-01-01,9,9,92.3,3.4,8.3,8.3,5,56.8,6.9,472.0,High,Business Analytics,Prof. Miller
+INT_0024,2024,2,2024-02-01,10,12,77.9,1.2,7.3,7.4,5,100.0,7.9,445.4,High,Business Analytics,Prof. Miller
+INT_0024,2024,3,2024-03-01,10,10,93.4,3.4,8.5,7.2,2,75.8,8.5,470.1,High,Business Analytics,Prof. Miller
+INT_0024,2024,4,2024-04-01,9,11,75.0,3.5,9.8,7.5,3,47.2,7.9,497.4,High,Business Analytics,Prof. Miller
+INT_0024,2024,5,2024-05-01,7,8,83.2,3.4,8.4,8.9,1,79.4,7.5,488.7,High,Business Analytics,Prof. Miller
+INT_0024,2024,6,2024-06-01,11,12,84.9,2.4,6.4,9.2,3,81.4,7.0,444.0,High,Business Analytics,Prof. Miller
+INT_0025,2024,1,2024-01-01,9,10,85.7,8.9,3.5,4.8,2,86.5,5.7,264.0,Low,UX Design,Prof. Brown
+INT_0025,2024,2,2024-02-01,8,15,52.5,6.9,4.7,5.7,1,83.9,4.8,297.2,Low,UX Design,Prof. Brown
+INT_0025,2024,3,2024-03-01,7,12,55.0,10.7,4.7,5.1,2,91.8,4.1,276.6,Low,UX Design,Prof. Brown
+INT_0025,2024,4,2024-04-01,9,17,51.1,8.6,3.8,5.2,1,70.7,6.1,275.4,Low,UX Design,Prof. Brown
+INT_0025,2024,5,2024-05-01,7,8,81.8,8.7,4.9,5.0,2,47.3,4.7,293.9,Low,UX Design,Prof. Brown
+INT_0025,2024,6,2024-06-01,8,9,85.2,8.8,4.6,5.1,2,56.6,8.5,325.8,Low,UX Design,Prof. Brown
+INT_0026,2024,1,2024-01-01,11,14,74.5,1.0,7.8,8.4,1,77.0,8.7,488.0,High,UX Design,Prof. Johnson
+INT_0026,2024,2,2024-02-01,8,8,89.1,2.8,8.6,8.4,5,53.2,8.1,495.0,High,UX Design,Prof. Johnson
+INT_0026,2024,3,2024-03-01,8,13,57.6,4.2,9.5,8.1,4,71.2,7.2,491.3,High,UX Design,Prof. Johnson
+INT_0026,2024,4,2024-04-01,8,8,89.8,4.7,7.9,8.8,1,89.3,7.2,471.4,High,UX Design,Prof. Johnson
+INT_0026,2024,5,2024-05-01,12,15,78.3,2.9,7.1,8.5,5,52.8,7.5,448.5,High,UX Design,Prof. Johnson
+INT_0026,2024,6,2024-06-01,11,12,88.0,2.2,9.9,8.6,1,59.5,8.9,538.4,High,UX Design,Prof. Johnson
+INT_0027,2024,1,2024-01-01,7,7,98.9,1.6,7.8,7.7,3,83.6,7.7,462.0,High,Business Analytics,Dr. Davis
+INT_0027,2024,2,2024-02-01,9,9,90.9,2.9,9.9,7.1,5,76.4,6.4,484.0,High,Business Analytics,Dr. Davis
+INT_0027,2024,3,2024-03-01,12,15,79.0,1.3,7.9,8.5,1,77.4,9.4,496.3,High,Business Analytics,Dr. Davis
+INT_0027,2024,4,2024-04-01,10,11,88.6,2.1,9.3,7.7,2,50.7,8.4,501.6,High,Business Analytics,Dr. Davis
+INT_0027,2024,5,2024-05-01,10,12,82.7,2.1,8.8,7.0,1,84.7,6.9,459.1,High,Business Analytics,Dr. Davis
+INT_0027,2024,6,2024-06-01,11,13,83.8,3.6,7.6,10.0,1,62.8,10.0,515.4,High,Business Analytics,Dr. Davis
+INT_0028,2024,1,2024-01-01,7,8,78.7,2.1,7.5,8.3,5,87.6,7.7,459.1,High,UX Design,Dr. Davis
+INT_0028,2024,2,2024-02-01,8,11,70.7,3.1,8.9,7.1,1,87.3,8.8,476.8,High,UX Design,Dr. Davis
+INT_0028,2024,3,2024-03-01,9,9,90.8,1.5,8.2,8.9,5,100.0,7.2,490.3,High,UX Design,Dr. Davis
+INT_0028,2024,4,2024-04-01,11,14,77.7,4.0,6.7,8.9,4,61.9,7.8,448.4,High,UX Design,Dr. Davis
+INT_0028,2024,5,2024-05-01,8,8,92.2,3.4,7.8,7.8,1,76.4,6.4,444.6,High,UX Design,Dr. Davis
+INT_0028,2024,6,2024-06-01,12,12,95.8,1.9,7.3,9.3,1,34.3,7.9,481.3,High,UX Design,Dr. Davis
+INT_0029,2024,1,2024-01-01,10,12,77.4,3.4,7.8,7.7,2,95.0,8.9,464.2,High,Software Engineering,Dr. Davis
+INT_0029,2024,2,2024-02-01,10,11,86.1,3.2,8.9,9.3,1,66.1,7.4,510.9,High,Software Engineering,Dr. Davis
+INT_0029,2024,3,2024-03-01,9,11,81.1,4.3,7.5,7.4,5,67.2,8.6,446.2,High,Software Engineering,Dr. Davis
+INT_0029,2024,4,2024-04-01,11,11,96.2,2.5,8.7,9.6,2,100.0,7.8,519.0,High,Software Engineering,Dr. Davis
+INT_0029,2024,5,2024-05-01,12,14,84.2,3.3,7.6,8.6,3,81.6,7.9,468.1,High,Software Engineering,Dr. Davis
+INT_0029,2024,6,2024-06-01,8,11,69.9,2.0,6.8,9.3,1,64.5,8.1,465.1,High,Software Engineering,Dr. Davis
+INT_0030,2024,1,2024-01-01,12,13,86.1,2.1,9.0,9.0,2,59.6,8.4,519.5,High,Data Science,Dr. Smith
+INT_0030,2024,2,2024-02-01,11,13,79.8,2.0,8.3,6.4,2,48.7,7.8,442.5,High,Data Science,Dr. Smith
+INT_0030,2024,3,2024-03-01,9,12,69.6,4.6,8.1,9.6,3,71.1,7.1,488.4,High,Data Science,Dr. Smith
+INT_0030,2024,4,2024-04-01,10,11,88.7,3.0,7.3,6.9,3,80.6,9.5,444.3,High,Data Science,Dr. Smith
+INT_0030,2024,5,2024-05-01,4,5,77.8,2.1,6.7,8.3,3,80.8,8.7,451.3,High,Data Science,Dr. Smith
+INT_0030,2024,6,2024-06-01,8,11,67.4,2.3,8.5,7.9,2,71.4,8.5,480.8,High,Data Science,Dr. Smith
+INT_0031,2024,1,2024-01-01,5,6,80.0,2.6,8.2,9.3,2,59.3,9.8,516.8,Exceptional,UX Design,Dr. Davis
+INT_0031,2024,2,2024-02-01,11,14,77.3,1.9,9.4,7.9,3,39.2,8.3,506.6,Exceptional,UX Design,Dr. Davis
+INT_0031,2024,3,2024-03-01,12,12,100.0,2.8,8.7,10.0,4,60.8,7.1,521.1,Exceptional,UX Design,Dr. Davis
+INT_0031,2024,4,2024-04-01,8,8,100.0,2.2,9.1,9.9,1,100.0,7.0,529.0,Exceptional,UX Design,Dr. Davis
+INT_0031,2024,5,2024-05-01,6,6,86.9,2.0,8.3,9.3,3,77.7,7.2,497.4,Exceptional,UX Design,Dr. Davis
+INT_0031,2024,6,2024-06-01,8,12,63.9,2.7,8.3,10.0,2,91.0,6.7,498.4,Exceptional,UX Design,Dr. Davis
+INT_0032,2024,1,2024-01-01,10,19,51.6,6.3,6.1,7.6,1,33.4,7.8,398.2,Medium,Business Analytics,Prof. Brown
+INT_0032,2024,2,2024-02-01,12,17,69.8,4.9,7.1,7.8,2,78.9,7.6,430.2,Medium,Business Analytics,Prof. Brown
+INT_0032,2024,3,2024-03-01,10,18,54.3,3.6,4.2,6.4,1,75.3,5.4,305.8,Medium,Business Analytics,Prof. Brown
+INT_0032,2024,4,2024-04-01,12,15,75.6,4.8,6.8,8.0,0,44.4,5.0,404.3,Medium,Business Analytics,Prof. Brown
+INT_0032,2024,5,2024-05-01,4,5,70.2,5.9,6.7,8.0,2,58.5,5.7,406.5,Medium,Business Analytics,Prof. Brown
+INT_0032,2024,6,2024-06-01,6,7,76.9,6.1,5.6,7.5,2,52.3,2.9,342.6,Medium,Business Analytics,Prof. Brown
+INT_0033,2024,1,2024-01-01,6,8,73.1,4.5,7.2,6.3,0,60.9,7.0,398.9,Medium,Data Science,Prof. Miller
+INT_0033,2024,2,2024-02-01,10,10,93.7,4.4,5.2,6.7,1,60.3,6.8,360.1,Medium,Data Science,Prof. Miller
+INT_0033,2024,3,2024-03-01,6,7,80.6,6.5,7.2,8.5,1,58.3,7.0,442.6,Medium,Data Science,Prof. Miller
+INT_0033,2024,4,2024-04-01,10,11,89.7,4.9,7.7,6.2,1,81.5,7.6,419.0,Medium,Data Science,Prof. Miller
+INT_0033,2024,5,2024-05-01,8,10,74.7,6.1,7.7,7.3,2,32.5,5.3,413.4,Medium,Data Science,Prof. Miller
+INT_0033,2024,6,2024-06-01,11,17,62.4,6.0,7.6,6.6,1,80.8,7.1,410.5,Medium,Data Science,Prof. Miller
+INT_0034,2024,1,2024-01-01,6,6,86.7,4.4,7.2,5.5,1,83.6,7.6,391.9,Medium,Business Analytics,Dr. Williams
+INT_0034,2024,2,2024-02-01,7,9,72.9,3.8,6.4,5.8,0,72.6,8.6,386.7,Medium,Business Analytics,Dr. Williams
+INT_0034,2024,3,2024-03-01,7,10,65.8,5.9,7.4,6.8,0,35.3,7.9,420.2,Medium,Business Analytics,Dr. Williams
+INT_0034,2024,4,2024-04-01,11,15,71.2,6.1,6.6,6.5,0,15.2,6.3,378.5,Medium,Business Analytics,Dr. Williams
+INT_0034,2024,5,2024-05-01,8,11,70.1,3.5,7.2,8.3,1,66.8,8.9,459.8,Medium,Business Analytics,Dr. Williams
+INT_0034,2024,6,2024-06-01,9,12,69.7,7.0,7.2,6.3,2,39.2,7.2,398.4,Medium,Business Analytics,Dr. Williams
+INT_0035,2024,1,2024-01-01,8,10,80.0,2.2,7.3,10.0,5,87.7,9.1,501.8,High,Data Science,Dr. Williams
+INT_0035,2024,2,2024-02-01,13,20,63.6,3.8,7.2,9.6,5,77.1,7.3,465.5,High,Data Science,Dr. Williams
+INT_0035,2024,3,2024-03-01,9,11,77.7,2.1,8.3,7.4,1,71.3,8.3,469.2,High,Data Science,Dr. Williams
+INT_0035,2024,4,2024-04-01,12,13,87.9,3.7,9.4,8.5,2,79.8,8.8,520.6,High,Data Science,Dr. Williams
+INT_0035,2024,5,2024-05-01,10,10,96.9,1.7,7.7,8.6,2,47.5,7.2,472.3,High,Data Science,Dr. Williams
+INT_0035,2024,6,2024-06-01,11,13,84.2,2.7,7.6,8.4,1,68.3,8.7,474.9,High,Data Science,Dr. Williams
+INT_0036,2024,1,2024-01-01,7,8,82.9,7.9,5.1,5.9,2,83.4,3.5,304.6,Low,Data Science,Prof. Miller
+INT_0036,2024,2,2024-02-01,7,9,70.0,7.5,4.5,4.9,1,69.4,8.0,312.4,Low,Data Science,Prof. Miller
+INT_0036,2024,3,2024-03-01,9,11,79.8,8.0,3.6,6.3,0,54.6,3.9,276.8,Low,Data Science,Prof. Miller
+INT_0036,2024,4,2024-04-01,8,12,66.5,8.6,5.6,6.5,0,59.5,8.5,372.4,Low,Data Science,Prof. Miller
+INT_0036,2024,5,2024-05-01,4,6,60.5,1.7,4.9,4.6,2,61.2,3.6,275.7,Low,Data Science,Prof. Miller
+INT_0036,2024,6,2024-06-01,6,9,62.9,5.4,5.1,4.6,1,36.5,5.4,292.9,Low,Data Science,Prof. Miller
+INT_0037,2024,1,2024-01-01,7,8,81.4,5.5,7.8,6.4,2,82.8,5.2,400.7,Medium,Business Analytics,Prof. Johnson
+INT_0037,2024,2,2024-02-01,8,13,60.4,2.1,4.7,6.0,2,42.2,5.8,320.5,Medium,Business Analytics,Prof. Johnson
+INT_0037,2024,3,2024-03-01,7,9,76.3,7.5,6.8,6.6,1,69.3,5.2,373.7,Medium,Business Analytics,Prof. Johnson
+INT_0037,2024,4,2024-04-01,9,13,67.5,1.0,6.8,7.0,1,62.8,6.1,407.6,Medium,Business Analytics,Prof. Johnson
+INT_0037,2024,5,2024-05-01,4,5,67.8,3.0,4.8,7.8,2,70.9,6.7,367.0,Medium,Business Analytics,Prof. Johnson
+INT_0037,2024,6,2024-06-01,7,10,68.3,7.0,5.8,5.9,2,60.4,5.4,337.2,Medium,Business Analytics,Prof. Johnson
+INT_0038,2024,1,2024-01-01,5,6,73.8,8.7,7.3,6.3,0,82.7,5.5,384.2,Medium,Marketing,Prof. Miller
+INT_0038,2024,2,2024-02-01,7,11,62.8,5.2,7.3,7.6,1,31.5,8.9,444.3,Medium,Marketing,Prof. Miller
+INT_0038,2024,3,2024-03-01,10,13,73.9,3.5,5.1,7.1,1,56.6,6.1,356.5,Medium,Marketing,Prof. Miller
+INT_0038,2024,4,2024-04-01,5,8,60.7,6.2,6.7,7.1,2,66.1,6.1,389.7,Medium,Marketing,Prof. Miller
+INT_0038,2024,5,2024-05-01,7,8,83.5,1.5,8.6,5.6,0,47.5,5.9,420.5,Medium,Marketing,Prof. Miller
+INT_0038,2024,6,2024-06-01,8,11,71.9,5.0,7.0,6.4,0,88.0,5.6,381.0,Medium,Marketing,Prof. Miller
+INT_0039,2024,1,2024-01-01,6,9,64.1,5.7,5.9,7.1,1,29.0,9.3,403.2,Medium,Software Engineering,Dr. Williams
+INT_0039,2024,2,2024-02-01,11,16,67.4,2.9,6.2,7.8,0,43.2,5.1,386.3,Medium,Software Engineering,Dr. Williams
+INT_0039,2024,3,2024-03-01,10,15,65.6,4.5,5.2,6.4,1,70.5,6.0,338.3,Medium,Software Engineering,Dr. Williams
+INT_0039,2024,4,2024-04-01,7,8,84.5,2.5,8.4,7.1,2,58.1,5.7,439.1,Medium,Software Engineering,Dr. Williams
+INT_0039,2024,5,2024-05-01,7,8,81.9,6.5,6.7,6.7,2,79.2,7.0,395.6,Medium,Software Engineering,Dr. Williams
+INT_0039,2024,6,2024-06-01,5,7,66.4,7.5,6.6,7.1,1,100.0,3.9,364.5,Medium,Software Engineering,Dr. Williams
+INT_0040,2024,1,2024-01-01,4,5,78.3,6.3,6.8,6.1,0,87.6,9.1,406.0,Medium,Business Analytics,Dr. Smith
+INT_0040,2024,2,2024-02-01,8,10,74.1,7.1,5.6,6.9,1,50.9,4.2,342.7,Medium,Business Analytics,Dr. Smith
+INT_0040,2024,3,2024-03-01,8,10,78.8,8.1,5.8,6.9,2,54.6,3.1,336.4,Medium,Business Analytics,Dr. Smith
+INT_0040,2024,4,2024-04-01,10,14,68.3,3.9,7.5,7.9,0,36.7,4.2,409.5,Medium,Business Analytics,Dr. Smith
+INT_0040,2024,5,2024-05-01,8,9,83.4,5.4,5.9,7.7,2,32.7,4.4,368.8,Medium,Business Analytics,Dr. Smith
+INT_0040,2024,6,2024-06-01,8,11,71.3,2.6,4.7,7.2,0,62.7,5.4,341.0,Medium,Business Analytics,Dr. Smith
+INT_0041,2024,1,2024-01-01,6,10,59.2,5.8,7.0,5.9,0,66.1,4.4,357.1,Low,Data Science,Dr. Smith
+INT_0041,2024,2,2024-02-01,5,7,68.8,5.8,5.6,4.4,2,54.0,4.5,295.0,Low,Data Science,Dr. Smith
+INT_0041,2024,3,2024-03-01,9,12,72.4,5.6,4.1,5.1,1,54.4,7.6,300.2,Low,Data Science,Dr. Smith
+INT_0041,2024,4,2024-04-01,11,16,65.6,11.2,5.9,5.4,2,23.7,6.0,332.7,Low,Data Science,Dr. Smith
+INT_0041,2024,5,2024-05-01,5,7,69.7,8.8,5.0,6.6,2,75.5,6.0,337.0,Low,Data Science,Dr. Smith
+INT_0041,2024,6,2024-06-01,7,9,70.4,8.8,4.2,5.9,0,52.7,4.7,289.0,Low,Data Science,Dr. Smith
+INT_0042,2024,1,2024-01-01,12,12,97.2,2.1,7.7,8.5,2,76.6,7.5,472.7,Exceptional,Marketing,Prof. Johnson
+INT_0042,2024,2,2024-02-01,9,10,87.5,1.8,8.6,8.1,3,71.3,7.5,485.2,Exceptional,Marketing,Prof. Johnson
+INT_0042,2024,3,2024-03-01,9,11,81.1,1.9,9.3,9.4,5,74.0,6.3,514.4,Exceptional,Marketing,Prof. Johnson
+INT_0042,2024,4,2024-04-01,9,10,87.9,1.9,9.9,8.3,1,52.6,8.2,528.3,Exceptional,Marketing,Prof. Johnson
+INT_0042,2024,5,2024-05-01,15,18,82.5,1.0,10.0,10.0,4,63.5,7.1,560.3,Exceptional,Marketing,Prof. Johnson
+INT_0042,2024,6,2024-06-01,6,7,82.2,1.5,8.5,8.6,1,68.3,7.6,495.6,Exceptional,Marketing,Prof. Johnson
+INT_0043,2024,1,2024-01-01,9,10,88.3,2.4,9.6,9.2,2,79.9,8.5,540.2,Exceptional,Business Analytics,Dr. Smith
+INT_0043,2024,2,2024-02-01,8,9,88.7,1.6,10.0,10.0,5,87.1,7.9,563.5,Exceptional,Business Analytics,Dr. Smith
+INT_0043,2024,3,2024-03-01,10,11,87.8,2.1,9.1,10.0,1,75.3,7.0,529.4,Exceptional,Business Analytics,Dr. Smith
+INT_0043,2024,4,2024-04-01,9,10,87.6,2.3,7.8,10.0,3,47.1,7.3,497.6,Exceptional,Business Analytics,Dr. Smith
+INT_0043,2024,5,2024-05-01,12,13,86.8,1.5,10.0,10.0,1,73.2,8.7,572.4,Exceptional,Business Analytics,Dr. Smith
+INT_0043,2024,6,2024-06-01,5,5,88.6,2.0,9.6,9.3,1,68.5,10.0,557.2,Exceptional,Business Analytics,Dr. Smith
+INT_0044,2024,1,2024-01-01,4,5,77.5,3.4,6.2,8.2,2,31.8,3.7,379.8,Medium,Data Science,Dr. Davis
+INT_0044,2024,2,2024-02-01,4,4,82.7,5.3,6.1,7.7,2,90.5,1.8,349.2,Medium,Data Science,Dr. Davis
+INT_0044,2024,3,2024-03-01,5,7,63.2,5.3,8.9,6.3,2,100.0,9.0,458.4,Medium,Data Science,Dr. Davis
+INT_0044,2024,4,2024-04-01,9,12,71.9,7.3,6.9,8.0,2,72.1,3.2,387.0,Medium,Data Science,Dr. Davis
+INT_0044,2024,5,2024-05-01,8,11,67.0,8.8,6.3,6.8,1,44.1,6.2,374.0,Medium,Data Science,Dr. Davis
+INT_0044,2024,6,2024-06-01,8,14,56.2,4.3,6.9,6.0,2,83.1,7.9,389.5,Medium,Data Science,Dr. Davis
+INT_0045,2024,1,2024-01-01,10,11,88.3,3.1,7.7,9.2,2,76.0,8.7,492.8,High,UX Design,Dr. Davis
+INT_0045,2024,2,2024-02-01,11,15,71.9,3.2,9.0,6.8,2,71.9,7.4,459.9,High,UX Design,Dr. Davis
+INT_0045,2024,3,2024-03-01,11,13,78.6,2.8,8.7,8.0,4,66.5,8.6,489.5,High,UX Design,Dr. Davis
+INT_0045,2024,4,2024-04-01,9,11,77.2,2.6,7.7,9.8,4,89.2,8.9,505.5,High,UX Design,Dr. Davis
+INT_0045,2024,5,2024-05-01,8,9,85.6,3.1,8.3,9.2,5,56.1,6.1,480.2,High,UX Design,Dr. Davis
+INT_0045,2024,6,2024-06-01,8,10,75.9,3.7,8.8,9.0,1,97.7,7.5,499.7,High,UX Design,Dr. Davis
+INT_0046,2024,1,2024-01-01,6,7,80.0,6.4,4.2,6.2,0,78.4,7.3,322.8,Low,Business Analytics,Prof. Brown
+INT_0046,2024,2,2024-02-01,7,10,67.0,7.4,5.6,7.1,1,62.5,5.7,358.4,Low,Business Analytics,Prof. Brown
+INT_0046,2024,3,2024-03-01,8,12,66.5,7.1,3.9,6.3,0,69.2,7.4,316.1,Low,Business Analytics,Prof. Brown
+INT_0046,2024,4,2024-04-01,6,9,64.5,9.1,4.9,5.4,2,86.3,5.0,299.0,Low,Business Analytics,Prof. Brown
+INT_0046,2024,5,2024-05-01,5,7,65.2,5.6,3.2,6.3,0,34.1,5.7,282.7,Low,Business Analytics,Prof. Brown
+INT_0046,2024,6,2024-06-01,7,9,72.8,7.8,2.5,5.9,2,90.4,6.2,263.6,Low,Business Analytics,Prof. Brown
+INT_0047,2024,1,2024-01-01,7,9,75.7,5.4,7.5,8.0,1,66.1,6.4,435.9,Medium,Business Analytics,Prof. Miller
+INT_0047,2024,2,2024-02-01,8,12,64.7,3.8,7.5,6.0,2,42.1,4.3,372.1,Medium,Business Analytics,Prof. Miller
+INT_0047,2024,3,2024-03-01,7,9,77.6,5.6,6.1,6.9,1,57.0,6.8,380.4,Medium,Business Analytics,Prof. Miller
+INT_0047,2024,4,2024-04-01,4,4,85.7,6.6,6.9,8.5,2,40.5,8.8,456.9,Medium,Business Analytics,Prof. Miller
+INT_0047,2024,5,2024-05-01,8,10,76.0,6.6,6.2,7.1,1,33.7,6.2,382.7,Medium,Business Analytics,Prof. Miller
+INT_0047,2024,6,2024-06-01,8,15,50.1,4.5,6.6,7.1,2,45.4,6.4,387.6,Medium,Business Analytics,Prof. Miller
+INT_0048,2024,1,2024-01-01,10,15,66.4,9.4,4.1,5.1,2,90.0,5.6,280.6,Low,Marketing,Prof. Brown
+INT_0048,2024,2,2024-02-01,8,11,71.8,5.0,4.7,6.8,0,46.8,5.5,329.3,Low,Marketing,Prof. Brown
+INT_0048,2024,3,2024-03-01,9,12,70.9,7.0,4.0,5.8,0,36.5,4.5,282.7,Low,Marketing,Prof. Brown
+INT_0048,2024,4,2024-04-01,5,8,60.4,8.0,4.9,4.4,1,63.3,7.4,302.1,Low,Marketing,Prof. Brown
+INT_0048,2024,5,2024-05-01,10,17,58.3,4.4,6.9,4.4,2,63.7,6.1,339.6,Low,Marketing,Prof. Brown
+INT_0048,2024,6,2024-06-01,8,11,67.3,5.8,7.8,5.1,2,15.6,4.7,364.9,Low,Marketing,Prof. Brown
+INT_0049,2024,1,2024-01-01,8,10,72.9,8.7,4.7,6.5,2,22.2,5.4,323.1,Low,Marketing,Prof. Brown
+INT_0049,2024,2,2024-02-01,7,9,72.3,7.2,3.3,4.8,1,89.1,8.2,282.1,Low,Marketing,Prof. Brown
+INT_0049,2024,3,2024-03-01,9,16,54.2,6.3,3.4,5.3,1,84.2,5.2,259.0,Low,Marketing,Prof. Brown
+INT_0049,2024,4,2024-04-01,8,11,70.7,9.3,4.3,5.2,1,30.4,2.6,255.8,Low,Marketing,Prof. Brown
+INT_0049,2024,5,2024-05-01,8,13,61.0,9.9,5.4,5.2,0,92.0,8.3,341.3,Low,Marketing,Prof. Brown
+INT_0049,2024,6,2024-06-01,9,13,67.2,4.2,4.5,5.5,2,84.5,5.1,296.7,Low,Marketing,Prof. Brown
+INT_0050,2024,1,2024-01-01,9,9,100.0,2.8,7.3,8.0,4,66.8,7.4,448.1,High,Data Science,Prof. Johnson
+INT_0050,2024,2,2024-02-01,11,12,91.1,4.4,6.1,9.0,2,89.8,6.7,425.8,High,Data Science,Prof. Johnson
+INT_0050,2024,3,2024-03-01,8,10,74.8,2.7,9.6,7.4,3,100.0,7.7,492.3,High,Data Science,Prof. Johnson
+INT_0050,2024,4,2024-04-01,10,12,78.3,2.8,5.8,8.7,3,80.2,8.1,427.7,High,Data Science,Prof. Johnson
+INT_0050,2024,5,2024-05-01,10,11,88.3,4.2,8.8,8.3,2,57.3,8.4,496.4,High,Data Science,Prof. Johnson
+INT_0050,2024,6,2024-06-01,10,11,86.6,2.3,7.5,7.6,5,71.6,9.1,460.5,High,Data Science,Prof. Johnson
+INT_0051,2024,1,2024-01-01,11,13,78.9,7.6,7.0,6.7,1,86.5,6.0,391.0,Medium,Data Science,Dr. Davis
+INT_0051,2024,2,2024-02-01,10,12,79.0,3.5,5.4,6.4,0,79.5,3.6,326.0,Medium,Data Science,Dr. Davis
+INT_0051,2024,3,2024-03-01,5,6,79.6,4.8,6.4,7.7,1,66.7,4.2,380.2,Medium,Data Science,Dr. Davis
+INT_0051,2024,4,2024-04-01,6,9,66.5,6.3,4.6,8.4,1,69.7,5.9,362.3,Medium,Data Science,Dr. Davis
+INT_0051,2024,5,2024-05-01,4,5,78.6,1.0,9.2,8.2,1,54.8,6.0,494.2,Medium,Data Science,Dr. Davis
+INT_0051,2024,6,2024-06-01,7,8,82.4,4.6,7.8,6.9,2,42.8,7.0,428.0,Medium,Data Science,Dr. Davis
+INT_0052,2024,1,2024-01-01,14,17,81.6,1.8,8.7,9.0,4,64.1,7.5,502.0,Exceptional,Software Engineering,Dr. Smith
+INT_0052,2024,2,2024-02-01,7,9,75.3,2.1,8.3,10.0,1,82.7,7.9,514.4,Exceptional,Software Engineering,Dr. Smith
+INT_0052,2024,3,2024-03-01,13,18,72.1,2.6,8.2,8.1,1,78.6,7.7,470.2,Exceptional,Software Engineering,Dr. Smith
+INT_0052,2024,4,2024-04-01,9,9,93.4,2.1,9.6,9.3,1,69.9,6.8,527.9,Exceptional,Software Engineering,Dr. Smith
+INT_0052,2024,5,2024-05-01,11,14,77.6,1.8,9.6,9.9,1,66.3,6.5,532.1,Exceptional,Software Engineering,Dr. Smith
+INT_0052,2024,6,2024-06-01,11,11,97.6,2.9,9.1,10.0,2,69.7,9.2,551.2,Exceptional,Software Engineering,Dr. Smith
+INT_0053,2024,1,2024-01-01,7,7,99.5,1.5,10.0,9.4,4,92.6,9.1,567.9,Exceptional,Data Science,Prof. Johnson
+INT_0053,2024,2,2024-02-01,9,10,89.6,1.8,9.5,9.9,3,91.2,7.4,543.1,Exceptional,Data Science,Prof. Johnson
+INT_0053,2024,3,2024-03-01,11,13,81.9,2.7,8.8,8.7,2,100.0,6.2,485.0,Exceptional,Data Science,Prof. Johnson
+INT_0053,2024,4,2024-04-01,10,12,77.5,2.4,8.5,9.4,3,49.7,6.4,491.5,Exceptional,Data Science,Prof. Johnson
+INT_0053,2024,5,2024-05-01,8,8,91.2,2.6,8.9,10.0,3,75.7,9.1,544.6,Exceptional,Data Science,Prof. Johnson
+INT_0053,2024,6,2024-06-01,9,10,83.8,2.4,9.6,9.8,4,29.5,8.3,549.1,Exceptional,Data Science,Prof. Johnson
+INT_0054,2024,1,2024-01-01,6,11,51.6,4.3,5.4,7.2,2,46.9,7.7,372.0,Medium,Marketing,Dr. Smith
+INT_0054,2024,2,2024-02-01,5,7,67.2,7.4,7.1,7.6,1,77.8,6.6,415.7,Medium,Marketing,Dr. Smith
+INT_0054,2024,3,2024-03-01,11,15,71.0,5.9,5.5,7.6,2,49.5,6.1,372.6,Medium,Marketing,Dr. Smith
+INT_0054,2024,4,2024-04-01,8,11,70.4,6.1,6.4,6.7,1,56.4,4.9,364.0,Medium,Marketing,Dr. Smith
+INT_0054,2024,5,2024-05-01,7,9,77.1,5.5,6.6,6.5,1,50.1,6.1,380.1,Medium,Marketing,Dr. Smith
+INT_0054,2024,6,2024-06-01,7,14,50.0,3.8,6.0,8.1,1,67.9,4.8,377.7,Medium,Marketing,Dr. Smith
+INT_0055,2024,1,2024-01-01,9,12,70.8,6.3,9.0,8.4,2,49.5,3.8,452.6,Medium,UX Design,Prof. Johnson
+INT_0055,2024,2,2024-02-01,9,12,74.9,3.3,8.9,5.9,1,79.0,6.6,432.5,Medium,UX Design,Prof. Johnson
+INT_0055,2024,3,2024-03-01,8,10,76.7,5.2,6.8,6.7,0,69.9,8.2,411.0,Medium,UX Design,Prof. Johnson
+INT_0055,2024,4,2024-04-01,8,14,53.6,3.6,6.4,7.9,2,69.3,4.2,378.0,Medium,UX Design,Prof. Johnson
+INT_0055,2024,5,2024-05-01,8,11,69.6,5.1,5.6,7.8,0,36.9,4.3,360.2,Medium,UX Design,Prof. Johnson
+INT_0055,2024,6,2024-06-01,8,16,50.0,4.2,4.6,6.7,0,20.3,4.7,313.1,Medium,UX Design,Prof. Johnson
+INT_0056,2024,1,2024-01-01,11,11,98.0,1.9,6.6,8.5,5,42.6,9.2,462.5,High,Business Analytics,Dr. Davis
+INT_0056,2024,2,2024-02-01,14,14,93.6,1.3,7.3,9.2,3,92.6,6.7,471.2,High,Business Analytics,Dr. Davis
+INT_0056,2024,3,2024-03-01,11,11,95.4,3.6,9.9,9.8,4,81.6,7.2,544.7,High,Business Analytics,Dr. Davis
+INT_0056,2024,4,2024-04-01,9,14,61.3,2.8,8.9,9.0,1,67.6,8.0,505.1,High,Business Analytics,Dr. Davis
+INT_0056,2024,5,2024-05-01,12,12,100.0,4.3,7.2,7.9,1,72.6,9.8,466.9,High,Business Analytics,Dr. Davis
+INT_0056,2024,6,2024-06-01,10,10,91.7,3.3,7.4,8.0,3,53.4,7.1,444.2,High,Business Analytics,Dr. Davis
+INT_0057,2024,1,2024-01-01,9,10,83.7,2.1,9.1,7.7,4,73.0,8.3,492.9,High,UX Design,Prof. Brown
+INT_0057,2024,2,2024-02-01,9,10,85.0,2.5,7.1,8.1,5,63.4,8.7,453.3,High,UX Design,Prof. Brown
+INT_0057,2024,3,2024-03-01,7,9,70.5,2.9,7.8,8.2,2,73.7,6.9,451.0,High,UX Design,Prof. Brown
+INT_0057,2024,4,2024-04-01,12,15,76.8,6.0,9.5,7.9,3,75.3,8.8,504.0,High,UX Design,Prof. Brown
+INT_0057,2024,5,2024-05-01,9,12,70.5,2.8,7.8,9.3,5,79.6,9.6,501.8,High,UX Design,Prof. Brown
+INT_0057,2024,6,2024-06-01,12,13,87.0,3.5,8.2,9.1,3,51.3,7.1,483.5,High,UX Design,Prof. Brown
+INT_0058,2024,1,2024-01-01,11,13,81.9,3.0,8.4,7.1,2,83.6,6.5,444.5,High,UX Design,Dr. Williams
+INT_0058,2024,2,2024-02-01,11,11,92.0,3.7,7.8,8.8,4,58.7,9.3,492.3,High,UX Design,Dr. Williams
+INT_0058,2024,3,2024-03-01,10,11,90.5,1.9,9.3,9.6,5,64.2,8.2,539.7,High,UX Design,Dr. Williams
+INT_0058,2024,4,2024-04-01,10,14,71.0,4.6,7.5,8.9,3,53.2,7.8,466.1,High,UX Design,Dr. Williams
+INT_0058,2024,5,2024-05-01,8,9,84.0,4.5,8.5,7.2,1,48.5,7.9,461.5,High,UX Design,Dr. Williams
+INT_0058,2024,6,2024-06-01,11,11,92.2,1.0,9.3,8.6,1,80.9,7.1,519.0,High,UX Design,Dr. Williams
+INT_0059,2024,1,2024-01-01,7,11,61.0,6.2,7.3,5.5,1,43.4,3.8,349.0,Medium,Data Science,Prof. Miller
+INT_0059,2024,2,2024-02-01,6,10,56.9,2.4,7.6,6.7,2,54.9,5.8,404.1,Medium,Data Science,Prof. Miller
+INT_0059,2024,3,2024-03-01,5,5,85.3,6.8,6.9,7.0,2,51.2,6.4,401.1,Medium,Data Science,Prof. Miller
+INT_0059,2024,4,2024-04-01,8,10,77.0,5.7,6.5,6.5,1,68.0,8.8,403.1,Medium,Data Science,Prof. Miller
+INT_0059,2024,5,2024-05-01,9,13,64.5,3.5,7.8,7.3,2,77.4,5.8,418.8,Medium,Data Science,Prof. Miller
+INT_0059,2024,6,2024-06-01,8,10,79.0,4.1,6.0,7.6,2,65.0,4.6,374.7,Medium,Data Science,Prof. Miller
+INT_0060,2024,1,2024-01-01,9,10,86.6,2.6,10.0,7.8,3,92.7,8.9,524.6,High,Data Science,Dr. Smith
+INT_0060,2024,2,2024-02-01,12,12,94.0,2.8,9.0,10.0,5,76.7,6.7,523.5,High,Data Science,Dr. Smith
+INT_0060,2024,3,2024-03-01,10,12,80.3,2.8,9.3,8.6,4,77.0,6.6,497.7,High,Data Science,Dr. Smith
+INT_0060,2024,4,2024-04-01,11,12,91.5,1.9,8.7,8.7,2,100.0,8.4,509.2,High,Data Science,Dr. Smith
+INT_0060,2024,5,2024-05-01,8,10,77.5,1.5,9.0,8.4,4,56.3,7.2,496.5,High,Data Science,Dr. Smith
+INT_0060,2024,6,2024-06-01,10,13,74.8,3.4,7.8,8.7,3,64.1,7.4,467.6,High,Data Science,Dr. Smith
+INT_0061,2024,1,2024-01-01,7,7,96.7,1.0,8.8,9.2,5,68.5,9.3,542.7,High,Data Science,Prof. Johnson
+INT_0061,2024,2,2024-02-01,10,10,91.4,3.5,8.8,6.9,1,51.7,9.0,475.1,High,Data Science,Prof. Johnson
+INT_0061,2024,3,2024-03-01,13,15,82.6,2.5,6.3,8.8,1,77.2,6.5,425.4,High,Data Science,Prof. Johnson
+INT_0061,2024,4,2024-04-01,10,11,86.7,1.1,7.6,8.0,3,65.1,8.6,475.4,High,Data Science,Prof. Johnson
+INT_0061,2024,5,2024-05-01,13,13,98.5,3.9,8.8,9.1,1,92.4,7.5,506.3,High,Data Science,Prof. Johnson
+INT_0061,2024,6,2024-06-01,9,10,89.7,2.7,10.0,9.4,4,77.5,8.2,550.3,High,Data Science,Prof. Johnson
+INT_0062,2024,1,2024-01-01,13,16,79.5,2.1,8.3,9.1,3,88.7,7.0,488.4,High,UX Design,Prof. Johnson
+INT_0062,2024,2,2024-02-01,7,8,80.2,2.4,5.6,9.1,2,100.0,8.6,436.2,High,UX Design,Prof. Johnson
+INT_0062,2024,3,2024-03-01,9,11,79.6,2.4,8.2,10.0,4,63.8,7.7,509.5,High,UX Design,Prof. Johnson
+INT_0062,2024,4,2024-04-01,7,8,85.8,2.2,8.4,8.6,1,79.3,9.7,511.0,High,UX Design,Prof. Johnson
+INT_0062,2024,5,2024-05-01,10,10,96.4,2.1,7.8,9.7,5,64.9,7.8,500.8,High,UX Design,Prof. Johnson
+INT_0062,2024,6,2024-06-01,11,11,94.6,2.9,7.9,8.9,2,83.5,9.2,497.7,High,UX Design,Prof. Johnson
+INT_0063,2024,1,2024-01-01,7,11,59.6,6.4,6.2,5.7,1,72.2,4.7,333.7,Low,UX Design,Prof. Johnson
+INT_0063,2024,2,2024-02-01,6,10,59.9,7.5,5.7,5.6,1,47.1,6.4,337.4,Low,UX Design,Prof. Johnson
+INT_0063,2024,3,2024-03-01,8,11,71.1,7.6,4.8,7.3,2,76.2,9.7,383.1,Low,UX Design,Prof. Johnson
+INT_0063,2024,4,2024-04-01,6,9,60.9,10.4,4.6,6.2,2,70.7,4.7,303.1,Low,UX Design,Prof. Johnson
+INT_0063,2024,5,2024-05-01,7,9,75.8,9.3,4.1,4.7,2,41.7,5.8,275.0,Low,UX Design,Prof. Johnson
+INT_0063,2024,6,2024-06-01,9,13,69.2,8.5,2.8,5.2,2,80.1,5.4,247.6,Low,UX Design,Prof. Johnson
+INT_0064,2024,1,2024-01-01,10,13,76.3,1.0,9.3,9.4,4,66.5,8.8,548.0,Exceptional,UX Design,Dr. Davis
+INT_0064,2024,2,2024-02-01,6,7,80.1,2.1,10.0,9.4,3,65.9,8.3,549.7,Exceptional,UX Design,Dr. Davis
+INT_0064,2024,3,2024-03-01,8,8,90.9,1.9,10.0,10.0,1,72.7,8.7,570.3,Exceptional,UX Design,Dr. Davis
+INT_0064,2024,4,2024-04-01,11,12,88.4,2.8,8.7,9.9,1,86.9,10.0,545.6,Exceptional,UX Design,Dr. Davis
+INT_0064,2024,5,2024-05-01,12,16,71.2,1.7,8.1,9.3,2,76.0,8.4,503.1,Exceptional,UX Design,Dr. Davis
+INT_0064,2024,6,2024-06-01,8,10,75.7,2.6,10.0,10.0,3,82.4,8.3,559.5,Exceptional,UX Design,Dr. Davis
+INT_0065,2024,1,2024-01-01,11,14,77.5,9.6,4.4,7.1,1,65.4,7.3,345.9,Low,Business Analytics,Dr. Smith
+INT_0065,2024,2,2024-02-01,9,15,57.3,8.3,4.1,5.3,2,53.1,5.4,278.6,Low,Business Analytics,Dr. Smith
+INT_0065,2024,3,2024-03-01,9,12,74.5,6.7,3.9,5.9,1,62.8,5.8,294.2,Low,Business Analytics,Dr. Smith
+INT_0065,2024,4,2024-04-01,6,6,93.2,9.2,5.7,6.4,0,60.3,7.2,368.1,Low,Business Analytics,Dr. Smith
+INT_0065,2024,5,2024-05-01,8,10,75.5,10.7,4.4,5.2,1,60.3,7.3,308.6,Low,Business Analytics,Dr. Smith
+INT_0065,2024,6,2024-06-01,10,14,67.5,5.7,4.8,4.9,1,68.8,5.0,287.9,Low,Business Analytics,Dr. Smith
+INT_0066,2024,1,2024-01-01,5,5,100.0,2.4,7.1,8.3,4,97.7,10.0,475.8,High,Software Engineering,Prof. Johnson
+INT_0066,2024,2,2024-02-01,7,8,82.9,2.5,8.6,8.5,4,84.4,7.7,490.0,High,Software Engineering,Prof. Johnson
+INT_0066,2024,3,2024-03-01,11,11,93.0,3.1,10.0,8.1,5,61.5,8.4,526.9,High,Software Engineering,Prof. Johnson
+INT_0066,2024,4,2024-04-01,9,12,72.2,2.4,9.6,9.6,1,65.7,5.2,510.0,High,Software Engineering,Prof. Johnson
+INT_0066,2024,5,2024-05-01,10,13,74.6,4.2,7.9,8.5,3,52.4,9.0,480.4,High,Software Engineering,Prof. Johnson
+INT_0066,2024,6,2024-06-01,10,11,83.5,3.0,6.5,9.0,1,77.7,9.0,460.3,High,Software Engineering,Prof. Johnson
+INT_0067,2024,1,2024-01-01,9,12,74.8,5.2,4.9,5.7,2,51.3,6.5,323.4,Low,Software Engineering,Prof. Brown
+INT_0067,2024,2,2024-02-01,9,12,70.9,10.0,5.6,5.2,2,77.9,6.1,325.7,Low,Software Engineering,Prof. Brown
+INT_0067,2024,3,2024-03-01,7,13,51.1,14.3,4.9,6.3,1,35.2,7.5,337.0,Low,Software Engineering,Prof. Brown
+INT_0067,2024,4,2024-04-01,5,7,69.6,11.4,5.1,5.2,2,75.1,5.8,308.5,Low,Software Engineering,Prof. Brown
+INT_0067,2024,5,2024-05-01,8,11,67.4,10.6,4.7,6.3,2,53.3,4.6,308.9,Low,Software Engineering,Prof. Brown
+INT_0067,2024,6,2024-06-01,10,15,65.4,5.5,4.5,5.2,0,91.1,7.4,311.5,Low,Software Engineering,Prof. Brown
+INT_0068,2024,1,2024-01-01,10,13,73.9,7.8,5.9,4.7,0,55.5,5.7,320.9,Low,UX Design,Dr. Smith
+INT_0068,2024,2,2024-02-01,6,9,64.3,10.4,5.2,5.8,1,83.6,5.9,322.0,Low,UX Design,Dr. Smith
+INT_0068,2024,3,2024-03-01,5,6,71.5,9.2,5.6,5.5,1,55.2,6.7,336.6,Low,UX Design,Dr. Smith
+INT_0068,2024,4,2024-04-01,8,9,85.1,7.2,5.6,5.4,2,34.2,7.1,343.2,Low,UX Design,Dr. Smith
+INT_0068,2024,5,2024-05-01,6,8,67.2,7.5,6.2,6.1,0,65.3,6.0,355.5,Low,UX Design,Dr. Smith
+INT_0068,2024,6,2024-06-01,9,12,73.6,11.3,4.1,5.1,1,64.2,7.3,298.5,Low,UX Design,Dr. Smith
+INT_0069,2024,1,2024-01-01,10,11,87.9,2.4,7.7,9.2,1,91.0,6.9,477.1,High,UX Design,Dr. Williams
+INT_0069,2024,2,2024-02-01,5,5,86.0,2.4,8.1,6.7,4,77.5,5.6,421.3,High,UX Design,Dr. Williams
+INT_0069,2024,3,2024-03-01,10,10,100.0,3.5,7.5,8.1,5,69.1,6.5,445.2,High,UX Design,Dr. Williams
+INT_0069,2024,4,2024-04-01,11,15,70.5,2.5,9.8,7.7,3,71.5,6.8,493.9,High,UX Design,Dr. Williams
+INT_0069,2024,5,2024-05-01,9,9,95.2,3.0,8.8,8.2,1,77.9,7.2,484.7,High,UX Design,Dr. Williams
+INT_0069,2024,6,2024-06-01,6,6,94.4,4.1,9.8,8.8,2,71.3,8.8,539.5,High,UX Design,Dr. Williams
+INT_0070,2024,1,2024-01-01,9,10,86.1,2.5,6.2,6.8,0,32.0,5.3,372.6,Medium,Business Analytics,Prof. Miller
+INT_0070,2024,2,2024-02-01,7,9,76.9,6.0,6.7,7.0,2,41.5,2.6,355.7,Medium,Business Analytics,Prof. Miller
+INT_0070,2024,3,2024-03-01,7,13,52.4,5.5,3.6,6.8,2,78.4,4.4,287.3,Medium,Business Analytics,Prof. Miller
+INT_0070,2024,4,2024-04-01,8,14,55.2,3.0,7.6,6.8,1,71.7,4.4,388.8,Medium,Business Analytics,Prof. Miller
+INT_0070,2024,5,2024-05-01,13,19,66.4,6.2,5.8,6.9,0,60.6,5.7,359.0,Medium,Business Analytics,Prof. Miller
+INT_0070,2024,6,2024-06-01,11,16,65.2,5.4,5.6,5.4,1,45.2,5.2,321.0,Medium,Business Analytics,Prof. Miller
+INT_0071,2024,1,2024-01-01,11,14,76.8,3.8,7.1,8.0,1,86.4,8.9,451.0,High,Software Engineering,Dr. Williams
+INT_0071,2024,2,2024-02-01,11,11,92.4,2.7,9.4,8.2,5,97.6,8.4,513.9,High,Software Engineering,Dr. Williams
+INT_0071,2024,3,2024-03-01,7,7,95.2,2.0,7.4,9.2,1,75.5,6.2,464.8,High,Software Engineering,Dr. Williams
+INT_0071,2024,4,2024-04-01,13,14,92.4,2.4,8.1,7.8,3,65.0,10.0,489.2,High,Software Engineering,Dr. Williams
+INT_0071,2024,5,2024-05-01,12,12,100.0,4.0,8.0,9.0,5,55.7,7.2,482.0,High,Software Engineering,Dr. Williams
+INT_0071,2024,6,2024-06-01,7,7,89.0,2.3,6.8,8.2,1,91.0,7.6,440.0,High,Software Engineering,Dr. Williams
+INT_0072,2024,1,2024-01-01,9,9,90.6,3.4,6.8,9.2,0,61.3,6.1,443.2,Medium,Business Analytics,Prof. Miller
+INT_0072,2024,2,2024-02-01,7,9,71.1,7.3,7.3,6.0,1,48.6,7.9,401.1,Medium,Business Analytics,Prof. Miller
+INT_0072,2024,3,2024-03-01,10,16,61.1,4.6,6.5,7.5,0,41.8,4.0,374.1,Medium,Business Analytics,Prof. Miller
+INT_0072,2024,4,2024-04-01,10,16,61.8,6.9,6.6,7.2,1,26.0,3.3,360.4,Medium,Business Analytics,Prof. Miller
+INT_0072,2024,5,2024-05-01,8,9,83.3,6.7,7.9,8.2,1,62.9,4.3,428.2,Medium,Business Analytics,Prof. Miller
+INT_0072,2024,6,2024-06-01,7,12,54.4,6.1,6.0,4.8,1,59.5,4.9,311.7,Medium,Business Analytics,Prof. Miller
+INT_0073,2024,1,2024-01-01,13,16,76.5,1.9,8.5,9.1,3,77.7,9.4,516.4,Exceptional,Marketing,Dr. Smith
+INT_0073,2024,2,2024-02-01,11,11,100.0,1.6,9.5,10.0,2,75.2,5.7,531.3,Exceptional,Marketing,Dr. Smith
+INT_0073,2024,3,2024-03-01,8,10,74.7,1.9,10.0,8.3,3,96.8,7.8,524.1,Exceptional,Marketing,Dr. Smith
+INT_0073,2024,4,2024-04-01,11,13,83.1,1.9,10.0,10.0,2,76.1,6.4,545.2,Exceptional,Marketing,Dr. Smith
+INT_0073,2024,5,2024-05-01,10,11,87.9,2.6,8.3,9.3,2,99.5,7.8,500.8,Exceptional,Marketing,Dr. Smith
+INT_0073,2024,6,2024-06-01,6,6,89.2,1.6,7.1,9.3,5,53.1,7.8,477.3,Exceptional,Marketing,Dr. Smith
+INT_0074,2024,1,2024-01-01,11,13,80.9,1.3,8.5,8.4,4,75.5,9.1,508.8,High,Business Analytics,Dr. Davis
+INT_0074,2024,2,2024-02-01,12,12,100.0,4.4,8.9,7.7,4,68.9,8.2,487.1,High,Business Analytics,Dr. Davis
+INT_0074,2024,3,2024-03-01,8,8,94.4,1.0,6.6,8.4,4,98.3,8.2,458.1,High,Business Analytics,Dr. Davis
+INT_0074,2024,4,2024-04-01,12,15,78.7,1.5,8.2,7.4,4,100.0,9.5,479.7,High,Business Analytics,Dr. Davis
+INT_0074,2024,5,2024-05-01,8,9,87.1,4.3,7.7,9.2,4,53.5,6.6,466.7,High,Business Analytics,Dr. Davis
+INT_0074,2024,6,2024-06-01,8,8,89.1,1.5,9.1,7.3,5,71.7,8.2,491.0,High,Business Analytics,Dr. Davis
+INT_0075,2024,1,2024-01-01,8,11,66.9,8.5,6.1,5.5,1,59.7,7.6,356.1,Low,Business Analytics,Dr. Smith
+INT_0075,2024,2,2024-02-01,8,13,59.3,7.3,4.8,4.4,2,43.2,6.6,291.7,Low,Business Analytics,Dr. Smith
+INT_0075,2024,3,2024-03-01,7,9,71.9,5.9,4.4,5.0,1,76.9,4.7,279.1,Low,Business Analytics,Dr. Smith
+INT_0075,2024,4,2024-04-01,7,9,77.1,5.7,7.1,5.5,0,61.0,5.0,361.6,Low,Business Analytics,Dr. Smith
+INT_0075,2024,5,2024-05-01,12,15,78.2,9.4,4.2,6.0,2,64.3,6.8,314.4,Low,Business Analytics,Dr. Smith
+INT_0075,2024,6,2024-06-01,10,13,72.0,6.1,4.4,4.9,2,59.1,6.3,291.9,Low,Business Analytics,Dr. Smith
+INT_0076,2024,1,2024-01-01,10,13,76.8,6.3,7.6,7.2,0,56.8,4.8,404.9,Medium,Business Analytics,Dr. Smith
+INT_0076,2024,2,2024-02-01,4,6,65.3,4.5,5.7,6.7,2,80.7,4.9,347.8,Medium,Business Analytics,Dr. Smith
+INT_0076,2024,3,2024-03-01,8,10,76.4,5.4,5.2,8.2,2,85.4,4.1,357.1,Medium,Business Analytics,Dr. Smith
+INT_0076,2024,4,2024-04-01,8,10,77.2,4.2,6.8,6.8,1,57.3,5.5,385.1,Medium,Business Analytics,Dr. Smith
+INT_0076,2024,5,2024-05-01,7,11,61.7,6.3,7.1,6.6,0,39.2,4.0,367.2,Medium,Business Analytics,Dr. Smith
+INT_0076,2024,6,2024-06-01,9,11,75.3,4.0,6.6,5.0,2,74.1,6.4,353.2,Medium,Business Analytics,Dr. Smith
+INT_0077,2024,1,2024-01-01,7,7,87.9,8.0,4.7,5.5,0,67.1,7.0,321.9,Low,UX Design,Dr. Smith
+INT_0077,2024,2,2024-02-01,6,9,64.5,7.6,4.0,4.6,2,100.0,6.5,273.7,Low,UX Design,Dr. Smith
+INT_0077,2024,3,2024-03-01,6,10,59.9,8.1,6.2,6.8,0,75.9,6.0,367.7,Low,UX Design,Dr. Smith
+INT_0077,2024,4,2024-04-01,8,9,82.4,9.7,3.5,5.7,1,56.6,7.7,301.7,Low,UX Design,Dr. Smith
+INT_0077,2024,5,2024-05-01,8,12,63.2,10.4,5.1,6.1,2,90.6,7.7,343.6,Low,UX Design,Dr. Smith
+INT_0077,2024,6,2024-06-01,9,10,87.6,6.9,3.9,6.7,1,24.3,4.5,301.5,Low,UX Design,Dr. Smith
+INT_0078,2024,1,2024-01-01,5,7,70.8,7.0,4.7,7.7,1,87.5,5.2,342.9,Medium,Software Engineering,Dr. Davis
+INT_0078,2024,2,2024-02-01,9,12,74.6,5.6,7.3,6.7,0,52.4,7.2,409.6,Medium,Software Engineering,Dr. Davis
+INT_0078,2024,3,2024-03-01,9,13,68.1,7.1,6.2,6.8,1,73.2,5.8,369.0,Medium,Software Engineering,Dr. Davis
+INT_0078,2024,4,2024-04-01,5,7,71.2,3.2,6.4,5.4,0,72.4,7.8,371.0,Medium,Software Engineering,Dr. Davis
+INT_0078,2024,5,2024-05-01,7,11,60.9,2.8,7.4,6.6,0,63.8,3.7,375.7,Medium,Software Engineering,Dr. Davis
+INT_0078,2024,6,2024-06-01,8,9,82.4,5.5,8.0,7.7,0,49.5,7.9,459.2,Medium,Software Engineering,Dr. Davis
+INT_0079,2024,1,2024-01-01,7,8,78.4,6.5,7.0,6.7,2,77.9,5.0,380.4,Medium,Data Science,Prof. Brown
+INT_0079,2024,2,2024-02-01,5,9,53.9,8.1,6.0,6.9,1,37.7,7.4,376.5,Medium,Data Science,Prof. Brown
+INT_0079,2024,3,2024-03-01,4,6,63.9,4.2,5.3,7.6,0,60.0,5.7,362.1,Medium,Data Science,Prof. Brown
+INT_0079,2024,4,2024-04-01,13,20,62.8,5.4,8.0,8.2,2,21.0,6.0,444.4,Medium,Data Science,Prof. Brown
+INT_0079,2024,5,2024-05-01,5,6,80.0,5.6,7.1,8.4,2,47.9,5.8,425.4,Medium,Data Science,Prof. Brown
+INT_0079,2024,6,2024-06-01,7,11,63.4,2.7,6.3,7.1,1,85.4,7.4,397.0,Medium,Data Science,Prof. Brown
+INT_0080,2024,1,2024-01-01,4,8,50.0,8.4,6.3,5.8,0,72.5,8.4,372.0,Low,Business Analytics,Dr. Williams
+INT_0080,2024,2,2024-02-01,6,11,52.8,8.4,5.0,4.3,1,58.9,5.1,277.6,Low,Business Analytics,Dr. Williams
+INT_0080,2024,3,2024-03-01,7,9,71.7,8.6,5.3,4.6,2,26.5,5.1,295.7,Low,Business Analytics,Dr. Williams
+INT_0080,2024,4,2024-04-01,5,6,75.0,4.6,4.7,3.5,0,33.3,4.7,257.4,Low,Business Analytics,Dr. Williams
+INT_0080,2024,5,2024-05-01,4,5,78.8,6.8,4.2,5.7,0,30.2,4.8,290.8,Low,Business Analytics,Dr. Williams
+INT_0080,2024,6,2024-06-01,5,6,72.1,6.6,5.3,6.4,0,91.8,2.2,302.7,Low,Business Analytics,Dr. Williams
+INT_0081,2024,1,2024-01-01,9,9,92.9,4.0,7.3,8.3,4,65.8,7.6,452.1,High,Marketing,Prof. Johnson
+INT_0081,2024,2,2024-02-01,10,13,76.3,4.5,8.6,9.3,3,80.5,8.8,512.6,High,Marketing,Prof. Johnson
+INT_0081,2024,3,2024-03-01,14,19,73.1,4.2,9.1,9.2,5,94.4,8.3,516.3,High,Marketing,Prof. Johnson
+INT_0081,2024,4,2024-04-01,11,16,67.6,4.0,6.6,9.3,2,69.7,6.8,439.9,High,Marketing,Prof. Johnson
+INT_0081,2024,5,2024-05-01,9,11,77.0,3.8,6.7,8.6,1,77.0,6.2,424.3,High,Marketing,Prof. Johnson
+INT_0081,2024,6,2024-06-01,11,12,89.9,1.0,8.4,9.9,1,29.8,8.7,537.4,High,Marketing,Prof. Johnson
+INT_0082,2024,1,2024-01-01,9,9,100.0,2.4,6.1,6.8,1,57.3,8.8,408.5,High,Marketing,Prof. Brown
+INT_0082,2024,2,2024-02-01,8,11,70.3,4.0,8.0,8.7,1,90.7,7.5,471.5,High,Marketing,Prof. Brown
+INT_0082,2024,3,2024-03-01,9,9,100.0,1.5,9.8,8.2,4,69.3,8.2,528.8,High,Marketing,Prof. Brown
+INT_0082,2024,4,2024-04-01,8,9,83.6,2.8,7.5,8.4,2,56.1,8.4,466.6,High,Marketing,Prof. Brown
+INT_0082,2024,5,2024-05-01,10,12,78.0,3.0,9.4,8.7,1,83.9,7.2,507.8,High,Marketing,Prof. Brown
+INT_0082,2024,6,2024-06-01,9,9,90.3,4.0,6.9,10.0,3,99.1,7.1,469.5,High,Marketing,Prof. Brown
+INT_0083,2024,1,2024-01-01,10,10,96.8,1.4,7.9,7.9,4,88.0,8.8,482.0,High,Data Science,Dr. Smith
+INT_0083,2024,2,2024-02-01,13,16,76.6,2.6,7.2,8.6,3,66.9,8.2,461.6,High,Data Science,Dr. Smith
+INT_0083,2024,3,2024-03-01,12,12,93.7,3.7,6.0,9.2,4,73.1,7.6,438.9,High,Data Science,Dr. Smith
+INT_0083,2024,4,2024-04-01,9,9,97.9,1.8,7.9,8.8,2,57.4,9.0,500.0,High,Data Science,Dr. Smith
+INT_0083,2024,5,2024-05-01,8,8,100.0,2.2,8.3,9.2,2,73.8,7.8,503.0,High,Data Science,Dr. Smith
+INT_0083,2024,6,2024-06-01,14,18,74.1,4.3,8.1,8.0,1,55.2,8.1,466.3,High,Data Science,Dr. Smith
+INT_0084,2024,1,2024-01-01,9,17,51.4,3.9,6.3,6.1,2,25.0,5.5,352.8,Medium,Data Science,Dr. Smith
+INT_0084,2024,2,2024-02-01,5,9,54.1,7.0,5.4,7.6,2,40.0,8.0,382.2,Medium,Data Science,Dr. Smith
+INT_0084,2024,3,2024-03-01,6,10,54.5,6.2,4.9,8.0,1,41.9,4.3,341.2,Medium,Data Science,Dr. Smith
+INT_0084,2024,4,2024-04-01,10,17,58.6,4.5,7.7,7.3,1,66.8,4.2,400.2,Medium,Data Science,Dr. Smith
+INT_0084,2024,5,2024-05-01,4,4,83.4,4.6,7.8,6.0,1,81.7,5.3,392.9,Medium,Data Science,Dr. Smith
+INT_0084,2024,6,2024-06-01,12,13,88.1,6.1,5.5,7.7,2,55.2,2.8,345.8,Medium,Data Science,Dr. Smith
+INT_0085,2024,1,2024-01-01,10,13,73.3,7.6,4.4,6.2,0,85.2,5.2,306.4,Low,Marketing,Prof. Johnson
+INT_0085,2024,2,2024-02-01,7,11,59.0,8.3,4.6,6.0,0,59.6,3.2,282.7,Low,Marketing,Prof. Johnson
+INT_0085,2024,3,2024-03-01,9,14,62.7,7.9,4.3,5.7,2,49.0,4.9,288.5,Low,Marketing,Prof. Johnson
+INT_0085,2024,4,2024-04-01,8,14,55.8,8.3,5.5,6.3,2,32.0,8.0,360.4,Low,Marketing,Prof. Johnson
+INT_0085,2024,5,2024-05-01,6,8,71.7,7.6,5.5,4.8,0,61.8,6.3,317.0,Low,Marketing,Prof. Johnson
+INT_0085,2024,6,2024-06-01,6,8,68.5,7.8,5.5,5.8,1,100.0,5.3,326.8,Low,Marketing,Prof. Johnson
+INT_0086,2024,1,2024-01-01,9,11,80.3,3.4,7.9,7.9,4,91.6,8.1,462.6,High,Data Science,Prof. Johnson
+INT_0086,2024,2,2024-02-01,9,9,100.0,2.6,6.8,8.4,5,64.3,6.7,436.0,High,Data Science,Prof. Johnson
+INT_0086,2024,3,2024-03-01,6,8,72.9,2.2,8.3,8.7,5,64.8,5.8,467.3,High,Data Science,Prof. Johnson
+INT_0086,2024,4,2024-04-01,8,8,100.0,3.8,9.8,8.1,1,81.1,7.0,508.1,High,Data Science,Prof. Johnson
+INT_0086,2024,5,2024-05-01,8,9,88.0,2.8,6.9,9.1,5,66.5,6.5,448.3,High,Data Science,Prof. Johnson
+INT_0086,2024,6,2024-06-01,7,8,83.0,2.7,7.4,8.1,5,92.8,7.7,451.5,High,Data Science,Prof. Johnson
+INT_0087,2024,1,2024-01-01,8,12,62.5,3.0,7.0,6.7,2,71.5,5.0,380.6,Medium,UX Design,Dr. Davis
+INT_0087,2024,2,2024-02-01,7,9,72.9,4.0,7.4,6.5,1,93.7,4.5,383.7,Medium,UX Design,Dr. Davis
+INT_0087,2024,3,2024-03-01,9,15,59.9,4.8,6.4,8.0,1,64.2,8.6,425.7,Medium,UX Design,Dr. Davis
+INT_0087,2024,4,2024-04-01,7,11,62.1,4.7,6.5,5.5,0,57.1,4.0,330.8,Medium,UX Design,Dr. Davis
+INT_0087,2024,5,2024-05-01,7,10,65.5,8.7,6.8,6.6,1,27.0,9.0,408.5,Medium,UX Design,Dr. Davis
+INT_0087,2024,6,2024-06-01,9,10,82.0,5.8,5.5,6.9,0,27.0,6.6,364.8,Medium,UX Design,Dr. Davis
+INT_0088,2024,1,2024-01-01,9,11,80.3,4.3,6.1,6.4,1,36.0,5.0,356.3,Medium,Business Analytics,Dr. Smith
+INT_0088,2024,2,2024-02-01,8,9,82.9,5.9,4.8,7.2,0,75.7,5.6,345.4,Medium,Business Analytics,Dr. Smith
+INT_0088,2024,3,2024-03-01,6,8,73.2,6.4,9.3,7.8,1,36.6,4.8,457.8,Medium,Business Analytics,Dr. Smith
+INT_0088,2024,4,2024-04-01,8,11,70.8,5.6,7.4,8.0,1,65.7,4.4,411.1,Medium,Business Analytics,Dr. Smith
+INT_0088,2024,5,2024-05-01,5,6,77.8,4.1,7.1,7.3,2,69.6,6.1,409.6,Medium,Business Analytics,Dr. Smith
+INT_0088,2024,6,2024-06-01,4,4,80.7,2.5,7.1,7.0,1,100.0,7.5,421.0,Medium,Business Analytics,Dr. Smith
+INT_0089,2024,1,2024-01-01,9,10,83.8,2.0,9.9,9.1,4,78.0,8.1,542.0,Exceptional,Marketing,Prof. Miller
+INT_0089,2024,2,2024-02-01,11,16,67.2,1.9,8.8,9.8,3,60.2,8.0,524.8,Exceptional,Marketing,Prof. Miller
+INT_0089,2024,3,2024-03-01,10,12,77.3,1.8,10.0,10.0,3,52.9,5.6,536.9,Exceptional,Marketing,Prof. Miller
+INT_0089,2024,4,2024-04-01,8,8,92.6,1.4,8.2,9.4,4,66.7,8.9,518.5,Exceptional,Marketing,Prof. Miller
+INT_0089,2024,5,2024-05-01,12,12,99.1,2.4,7.7,10.0,2,85.9,7.9,503.7,Exceptional,Marketing,Prof. Miller
+INT_0089,2024,6,2024-06-01,10,13,75.1,1.7,7.2,10.0,2,55.5,8.5,495.0,Exceptional,Marketing,Prof. Miller
+INT_0090,2024,1,2024-01-01,7,7,88.1,1.8,8.4,9.5,3,60.6,6.9,502.7,Exceptional,Software Engineering,Dr. Williams
+INT_0090,2024,2,2024-02-01,10,11,86.3,1.5,7.9,9.0,2,100.0,7.6,486.9,Exceptional,Software Engineering,Dr. Williams
+INT_0090,2024,3,2024-03-01,12,12,100.0,1.6,8.9,9.1,2,68.7,9.2,535.5,Exceptional,Software Engineering,Dr. Williams
+INT_0090,2024,4,2024-04-01,7,8,80.7,2.4,10.0,9.2,4,71.3,7.8,541.6,Exceptional,Software Engineering,Dr. Williams
+INT_0090,2024,5,2024-05-01,10,11,90.1,2.6,8.5,8.2,1,77.4,7.5,483.4,Exceptional,Software Engineering,Dr. Williams
+INT_0090,2024,6,2024-06-01,10,15,64.2,1.8,7.3,10.0,3,63.5,9.7,505.4,Exceptional,Software Engineering,Dr. Williams
+INT_0091,2024,1,2024-01-01,9,10,84.8,2.8,6.1,9.9,1,70.9,8.2,460.8,High,Business Analytics,Prof. Johnson
+INT_0091,2024,2,2024-02-01,11,13,84.0,1.7,7.3,5.9,5,67.6,8.0,413.9,High,Business Analytics,Prof. Johnson
+INT_0091,2024,3,2024-03-01,9,12,71.5,4.0,7.3,7.6,2,78.2,7.2,431.0,High,Business Analytics,Prof. Johnson
+INT_0091,2024,4,2024-04-01,9,9,90.9,1.8,7.7,9.5,1,57.1,9.5,509.8,High,Business Analytics,Prof. Johnson
+INT_0091,2024,5,2024-05-01,10,10,100.0,3.0,6.2,9.0,4,100.0,8.7,455.4,High,Business Analytics,Prof. Johnson
+INT_0091,2024,6,2024-06-01,8,8,97.1,5.3,8.7,9.7,4,85.8,7.5,513.0,High,Business Analytics,Prof. Johnson
+INT_0092,2024,1,2024-01-01,8,9,87.5,1.9,6.1,8.7,5,75.3,7.4,433.2,High,Software Engineering,Prof. Miller
+INT_0092,2024,2,2024-02-01,10,11,83.6,3.5,7.9,9.5,3,70.2,7.0,483.5,High,Software Engineering,Prof. Miller
+INT_0092,2024,3,2024-03-01,9,13,68.4,3.8,7.7,9.3,2,79.2,7.1,471.7,High,Software Engineering,Prof. Miller
+INT_0092,2024,4,2024-04-01,10,11,83.6,2.1,7.9,8.7,3,81.0,8.2,484.6,High,Software Engineering,Prof. Miller
+INT_0092,2024,5,2024-05-01,10,13,73.9,1.4,7.5,9.0,4,75.0,7.0,468.4,High,Software Engineering,Prof. Miller
+INT_0092,2024,6,2024-06-01,9,11,76.0,3.6,9.6,8.8,1,93.9,9.7,538.2,High,Software Engineering,Prof. Miller
+INT_0093,2024,1,2024-01-01,13,15,84.9,2.5,9.4,9.5,2,88.8,7.4,527.6,High,Marketing,Dr. Davis
+INT_0093,2024,2,2024-02-01,6,6,92.3,2.4,7.3,9.3,1,92.4,9.0,489.3,High,Marketing,Dr. Davis
+INT_0093,2024,3,2024-03-01,6,7,78.1,2.3,5.5,9.0,3,71.3,7.9,422.9,High,Marketing,Dr. Davis
+INT_0093,2024,4,2024-04-01,8,9,80.7,3.6,8.9,8.1,2,71.5,7.4,485.0,High,Marketing,Dr. Davis
+INT_0093,2024,5,2024-05-01,11,11,100.0,4.2,7.6,8.6,5,62.0,7.8,468.5,High,Marketing,Dr. Davis
+INT_0093,2024,6,2024-06-01,8,10,77.7,2.3,6.4,8.8,1,88.4,8.8,451.2,High,Marketing,Dr. Davis
+INT_0094,2024,1,2024-01-01,10,17,56.4,5.1,6.1,7.8,1,35.6,6.6,392.8,Medium,Data Science,Dr. Smith
+INT_0094,2024,2,2024-02-01,8,10,76.2,4.5,5.2,7.7,2,66.2,8.0,388.6,Medium,Data Science,Dr. Smith
+INT_0094,2024,3,2024-03-01,5,6,72.6,6.4,5.0,9.0,1,83.8,6.0,387.2,Medium,Data Science,Dr. Smith
+INT_0094,2024,4,2024-04-01,6,8,73.8,5.6,7.5,6.3,2,53.8,9.0,423.9,Medium,Data Science,Dr. Smith
+INT_0094,2024,5,2024-05-01,5,6,82.8,6.5,7.9,6.9,0,50.1,6.1,419.8,Medium,Data Science,Dr. Smith
+INT_0094,2024,6,2024-06-01,11,18,60.9,4.2,5.8,7.1,0,87.4,8.7,392.4,Medium,Data Science,Dr. Smith
+INT_0095,2024,1,2024-01-01,11,11,97.2,1.4,9.2,9.9,2,79.1,6.8,535.0,Exceptional,Marketing,Dr. Smith
+INT_0095,2024,2,2024-02-01,8,8,98.4,1.9,7.8,10.0,4,85.4,7.4,504.0,Exceptional,Marketing,Dr. Smith
+INT_0095,2024,3,2024-03-01,12,12,99.4,1.8,8.5,9.4,4,75.6,9.4,530.1,Exceptional,Marketing,Dr. Smith
+INT_0095,2024,4,2024-04-01,10,12,80.0,2.4,9.6,10.0,3,73.8,7.5,543.0,Exceptional,Marketing,Dr. Smith
+INT_0095,2024,5,2024-05-01,11,12,89.2,1.9,9.1,9.8,1,85.0,6.5,520.9,Exceptional,Marketing,Dr. Smith
+INT_0095,2024,6,2024-06-01,10,12,79.3,2.1,8.3,9.4,1,70.0,6.7,491.4,Exceptional,Marketing,Dr. Smith
+INT_0096,2024,1,2024-01-01,10,14,69.0,7.6,5.4,5.3,0,76.2,9.0,349.9,Low,Software Engineering,Prof. Miller
+INT_0096,2024,2,2024-02-01,8,11,72.3,5.9,6.3,5.1,0,80.3,6.2,343.0,Low,Software Engineering,Prof. Miller
+INT_0096,2024,3,2024-03-01,7,9,70.3,11.8,6.6,6.0,2,89.0,5.7,360.7,Low,Software Engineering,Prof. Miller
+INT_0096,2024,4,2024-04-01,4,4,80.1,6.1,4.8,6.0,2,89.2,4.4,305.8,Low,Software Engineering,Prof. Miller
+INT_0096,2024,5,2024-05-01,9,15,59.3,10.1,6.1,5.7,1,43.9,5.9,342.5,Low,Software Engineering,Prof. Miller
+INT_0096,2024,6,2024-06-01,9,11,75.0,6.6,5.2,5.1,2,39.4,5.5,307.7,Low,Software Engineering,Prof. Miller
+INT_0097,2024,1,2024-01-01,4,5,73.9,4.9,6.3,6.6,2,61.7,6.8,380.0,Medium,UX Design,Dr. Davis
+INT_0097,2024,2,2024-02-01,8,12,61.7,4.7,6.0,7.3,2,71.0,7.3,391.0,Medium,UX Design,Dr. Davis
+INT_0097,2024,3,2024-03-01,5,7,66.4,6.1,7.1,7.9,2,30.2,6.3,418.7,Medium,UX Design,Dr. Davis
+INT_0097,2024,4,2024-04-01,8,14,54.9,3.1,7.1,6.8,2,58.5,5.1,384.6,Medium,UX Design,Dr. Davis
+INT_0097,2024,5,2024-05-01,9,13,64.5,5.5,6.7,8.4,0,96.3,5.1,406.4,Medium,UX Design,Dr. Davis
+INT_0097,2024,6,2024-06-01,9,16,53.4,6.2,7.0,8.3,0,53.8,4.5,402.9,Medium,UX Design,Dr. Davis
+INT_0098,2024,1,2024-01-01,8,9,86.3,2.3,10.0,8.7,1,60.7,7.7,530.1,Exceptional,Data Science,Dr. Smith
+INT_0098,2024,2,2024-02-01,11,12,89.5,2.0,8.6,9.8,3,73.2,9.8,541.5,Exceptional,Data Science,Dr. Smith
+INT_0098,2024,3,2024-03-01,7,8,78.5,2.4,10.0,8.4,1,58.6,8.3,528.4,Exceptional,Data Science,Dr. Smith
+INT_0098,2024,4,2024-04-01,9,11,79.5,1.7,7.4,8.8,2,60.9,7.5,467.1,Exceptional,Data Science,Dr. Smith
+INT_0098,2024,5,2024-05-01,9,9,100.0,2.6,9.7,10.0,4,89.8,7.0,545.5,Exceptional,Data Science,Dr. Smith
+INT_0098,2024,6,2024-06-01,9,12,71.0,1.5,9.9,9.7,4,99.5,7.7,549.2,Exceptional,Data Science,Dr. Smith
+INT_0099,2024,1,2024-01-01,10,13,73.1,1.6,10.0,8.8,3,89.0,7.5,531.2,Exceptional,Software Engineering,Dr. Davis
+INT_0099,2024,2,2024-02-01,12,13,87.5,2.7,8.8,10.0,1,48.6,7.5,524.8,Exceptional,Software Engineering,Dr. Davis
+INT_0099,2024,3,2024-03-01,13,16,78.2,1.6,8.4,9.9,2,63.6,7.8,519.1,Exceptional,Software Engineering,Dr. Davis
+INT_0099,2024,4,2024-04-01,8,12,64.8,1.3,8.6,10.0,4,80.2,8.1,526.6,Exceptional,Software Engineering,Dr. Davis
+INT_0099,2024,5,2024-05-01,11,13,80.2,1.1,10.0,8.8,1,58.4,8.0,543.1,Exceptional,Software Engineering,Dr. Davis
+INT_0099,2024,6,2024-06-01,8,9,81.8,1.8,8.3,9.5,4,66.6,8.1,509.7,Exceptional,Software Engineering,Dr. Davis
+INT_0100,2024,1,2024-01-01,8,10,76.4,1.0,9.1,8.5,5,72.5,7.5,512.5,Exceptional,Business Analytics,Dr. Davis
+INT_0100,2024,2,2024-02-01,11,11,94.6,1.2,9.3,9.0,1,53.9,7.6,528.1,Exceptional,Business Analytics,Dr. Davis
+INT_0100,2024,3,2024-03-01,9,10,86.6,2.2,7.6,9.6,2,68.2,8.5,497.5,Exceptional,Business Analytics,Dr. Davis
+INT_0100,2024,4,2024-04-01,6,7,77.8,2.3,8.4,9.2,2,49.2,7.2,494.9,Exceptional,Business Analytics,Dr. Davis
+INT_0100,2024,5,2024-05-01,10,11,88.8,2.6,10.0,9.4,2,83.0,9.8,565.4,Exceptional,Business Analytics,Dr. Davis
+INT_0100,2024,6,2024-06-01,8,9,88.2,2.7,8.3,9.9,2,53.9,10.0,535.4,Exceptional,Business Analytics,Dr. Davis

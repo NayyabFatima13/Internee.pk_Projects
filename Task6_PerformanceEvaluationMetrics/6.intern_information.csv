@@ -1,0 +1,101 @@
+intern_id,department,mentor,performance_tier,join_date
+INT_0001,Data Science,Dr. Smith,Medium,2024-01-08
+INT_0002,Software Engineering,Prof. Johnson,Medium,2024-01-22
+INT_0003,Business Analytics,Dr. Smith,Medium,2024-01-02
+INT_0004,Data Science,Dr. Smith,High,2024-01-17
+INT_0005,Business Analytics,Dr. Smith,Medium,2024-01-23
+INT_0006,Business Analytics,Prof. Brown,High,2024-01-19
+INT_0007,Marketing,Dr. Smith,Medium,2024-01-06
+INT_0008,UX Design,Dr. Williams,High,2024-01-07
+INT_0009,Marketing,Dr. Smith,Exceptional,2024-01-04
+INT_0010,Marketing,Dr. Williams,Medium,2024-01-26
+INT_0011,Data Science,Prof. Miller,High,2024-01-04
+INT_0012,UX Design,Dr. Smith,Medium,2024-01-27
+INT_0013,Business Analytics,Dr. Williams,Medium,2024-01-23
+INT_0014,Data Science,Dr. Smith,Medium,2024-01-25
+INT_0015,Marketing,Dr. Smith,Low,2024-01-28
+INT_0016,Data Science,Prof. Brown,High,2024-01-21
+INT_0017,Marketing,Prof. Johnson,High,2024-01-07
+INT_0018,Marketing,Prof. Miller,Low,2024-01-21
+INT_0019,Data Science,Dr. Davis,Medium,2024-01-18
+INT_0020,Software Engineering,Prof. Johnson,High,2024-01-09
+INT_0021,Business Analytics,Prof. Johnson,Medium,2024-01-27
+INT_0022,Data Science,Prof. Johnson,Medium,2024-01-26
+INT_0023,Marketing,Prof. Brown,High,2024-01-07
+INT_0024,Business Analytics,Prof. Miller,High,2024-01-21
+INT_0025,UX Design,Prof. Brown,Low,2024-01-21
+INT_0026,UX Design,Prof. Johnson,High,2024-01-08
+INT_0027,Business Analytics,Dr. Davis,High,2024-01-19
+INT_0028,UX Design,Dr. Davis,High,2024-01-08
+INT_0029,Software Engineering,Dr. Davis,High,2024-01-25
+INT_0030,Data Science,Dr. Smith,High,2024-01-06
+INT_0031,UX Design,Dr. Davis,Exceptional,2024-01-13
+INT_0032,Business Analytics,Prof. Brown,Medium,2024-01-18
+INT_0033,Data Science,Prof. Miller,Medium,2024-01-22
+INT_0034,Business Analytics,Dr. Williams,Medium,2024-01-11
+INT_0035,Data Science,Dr. Williams,High,2024-01-15
+INT_0036,Data Science,Prof. Miller,Low,2024-01-09
+INT_0037,Business Analytics,Prof. Johnson,Medium,2024-01-04
+INT_0038,Marketing,Prof. Miller,Medium,2024-01-07
+INT_0039,Software Engineering,Dr. Williams,Medium,2024-01-18
+INT_0040,Business Analytics,Dr. Smith,Medium,2024-01-16
+INT_0041,Data Science,Dr. Smith,Low,2024-01-29
+INT_0042,Marketing,Prof. Johnson,Exceptional,2024-01-29
+INT_0043,Business Analytics,Dr. Smith,Exceptional,2024-01-16
+INT_0044,Data Science,Dr. Davis,Medium,2024-01-05
+INT_0045,UX Design,Dr. Davis,High,2024-01-17
+INT_0046,Business Analytics,Prof. Brown,Low,2024-01-30
+INT_0047,Business Analytics,Prof. Miller,Medium,2024-01-23
+INT_0048,Marketing,Prof. Brown,Low,2024-01-21
+INT_0049,Marketing,Prof. Brown,Low,2024-01-15
+INT_0050,Data Science,Prof. Johnson,High,2024-01-11
+INT_0051,Data Science,Dr. Davis,Medium,2024-01-19
+INT_0052,Software Engineering,Dr. Smith,Exceptional,2024-01-21
+INT_0053,Data Science,Prof. Johnson,Exceptional,2024-01-02
+INT_0054,Marketing,Dr. Smith,Medium,2024-01-09
+INT_0055,UX Design,Prof. Johnson,Medium,2024-01-24
+INT_0056,Business Analytics,Dr. Davis,High,2024-01-26
+INT_0057,UX Design,Prof. Brown,High,2024-01-04
+INT_0058,UX Design,Dr. Williams,High,2024-01-15
+INT_0059,Data Science,Prof. Miller,Medium,2024-01-21
+INT_0060,Data Science,Dr. Smith,High,2024-01-11
+INT_0061,Data Science,Prof. Johnson,High,2024-01-18
+INT_0062,UX Design,Prof. Johnson,High,2024-01-09
+INT_0063,UX Design,Prof. Johnson,Low,2024-01-03
+INT_0064,UX Design,Dr. Davis,Exceptional,2024-01-21
+INT_0065,Business Analytics,Dr. Smith,Low,2024-01-30
+INT_0066,Software Engineering,Prof. Johnson,High,2024-01-16
+INT_0067,Software Engineering,Prof. Brown,Low,2024-01-06
+INT_0068,UX Design,Dr. Smith,Low,2024-01-09
+INT_0069,UX Design,Dr. Williams,High,2024-01-31
+INT_0070,Business Analytics,Prof. Miller,Medium,2024-01-05
+INT_0071,Software Engineering,Dr. Williams,High,2024-01-02
+INT_0072,Business Analytics,Prof. Miller,Medium,2024-01-24
+INT_0073,Marketing,Dr. Smith,Exceptional,2024-01-16
+INT_0074,Business Analytics,Dr. Davis,High,2024-01-31
+INT_0075,Business Analytics,Dr. Smith,Low,2024-01-03
+INT_0076,Business Analytics,Dr. Smith,Medium,2024-01-08
+INT_0077,UX Design,Dr. Smith,Low,2024-01-19
+INT_0078,Software Engineering,Dr. Davis,Medium,2024-01-20
+INT_0079,Data Science,Prof. Brown,Medium,2024-01-19
+INT_0080,Business Analytics,Dr. Williams,Low,2024-01-07
+INT_0081,Marketing,Prof. Johnson,High,2024-01-05
+INT_0082,Marketing,Prof. Brown,High,2024-01-25
+INT_0083,Data Science,Dr. Smith,High,2024-01-19
+INT_0084,Data Science,Dr. Smith,Medium,2024-01-17
+INT_0085,Marketing,Prof. Johnson,Low,2024-01-29
+INT_0086,Data Science,Prof. Johnson,High,2024-01-06
+INT_0087,UX Design,Dr. Davis,Medium,2024-01-20
+INT_0088,Business Analytics,Dr. Smith,Medium,2024-01-18
+INT_0089,Marketing,Prof. Miller,Exceptional,2024-01-29
+INT_0090,Software Engineering,Dr. Williams,Exceptional,2024-01-04
+INT_0091,Business Analytics,Prof. Johnson,High,2024-01-20
+INT_0092,Software Engineering,Prof. Miller,High,2024-01-22
+INT_0093,Marketing,Dr. Davis,High,2024-01-29
+INT_0094,Data Science,Dr. Smith,Medium,2024-01-27
+INT_0095,Marketing,Dr. Smith,Exceptional,2024-01-25
+INT_0096,Software Engineering,Prof. Miller,Low,2024-01-06
+INT_0097,UX Design,Dr. Davis,Medium,2024-01-18
+INT_0098,Data Science,Dr. Smith,Exceptional,2024-01-29
+INT_0099,Software Engineering,Dr. Davis,Exceptional,2024-01-12
+INT_0100,Business Analytics,Dr. Davis,Exceptional,2024-01-05
