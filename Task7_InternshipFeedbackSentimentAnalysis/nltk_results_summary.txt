@@ -1,0 +1,15 @@
+
+NLTK SENTIMENT ANALYSIS RESULTS
+===============================
+Overall Accuracy: 77.60%
+Best Threshold: 0.05
+Total Samples: 2000
+
+Department Accuracy:
+department
+Marketing               0.821656
+UX Design               0.807263
+Software Engineering    0.804878
+Research                0.759760
+Business Analytics      0.741379
+Data Science            0.721003
