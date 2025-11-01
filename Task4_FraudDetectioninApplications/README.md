@@ -70,6 +70,8 @@ Interactive Dashboard Includes:
 - **Detection Performance** - Real-time gauge metrics
 - **Cost-Benefit Analysis** - Financial impact visualization
 
+<img width="5967" height="3571" alt="fraud_detection_dashboard" src="https://github.com/user-attachments/assets/2618aed5-f9c0-4ddb-8c29-8b27b566a083" />
+
 <img width="778" height="299" alt="image" src="https://github.com/user-attachments/assets/a85bb772-cd61-42d8-816d-f8d313286861" />
 
 ## Acknowledgments
